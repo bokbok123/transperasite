@@ -1,3 +1,23 @@
 div#page1 {
-    background: url('../img/splash.png') no-repeat fixed center center / 100% 100%;;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/splash.png') no-repeat fixed center center / 100% 100%;
+}
+div.splashContainer {
+    margin-left: 190px;
+}
+div.homepageContent span{
+    color: #fff;
+    display: block;
+    font-family: MyriadProSemiBold;
+}
+div.homepageContent span.homepageText1{
+    font-size: 70px;
+}
+div.homepageContent span.homepageText2{
+    font-size: 28px;
+}
+div.homepageDownloadContainer {
+    margin-top: 75px;
+}
+div.homepageDownloadContainer img {
+    margin-right: 20px;
 }
