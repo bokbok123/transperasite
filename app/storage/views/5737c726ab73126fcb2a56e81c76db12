@@ -1,0 +1,12 @@
+<div class="section" data-anchor="maine" id="page1">
+    <?php echo $__env->make('section.splash', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</div>
+<div class="section" data-anchor="about" id="page2">
+    <?php echo $__env->make('section.about', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</div>
+<div class="section" data-anchor="career">
+    career
+</div>
+<div class="section" data-anchor="contact-us" id="contact-us">
+    <?php echo $__env->make('section.contact', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</div>

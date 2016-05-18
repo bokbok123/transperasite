@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'HomeController@showWelcome');
+Route::get('admin', 'HomeController@admin');
+Route::post('login', 'HomeController@login');
+Route::post('create_job', 'AdminController@create_job');
+Route::get('dashboard', 'AdminController@dashboard');
