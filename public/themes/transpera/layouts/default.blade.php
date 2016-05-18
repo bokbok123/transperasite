@@ -9,14 +9,9 @@
         {{ Theme::asset()->scripts() }}
     </head>
     <body>
-        {{ Theme::partial('header') }}
-
+        <input type="hidden" value="{{ URL::to('/') }}" id="hidden_url" />
         <div class="fonebayad-container" id="fonebayadFullPage">
             {{ Theme::content() }}
         </div>
-
-        {{ Theme::partial('footer') }}
-
-        {{ Theme::asset()->container('footer')->scripts() }}
     </body>
 </html>
