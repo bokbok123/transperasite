@@ -4,7 +4,7 @@
 <div class="section" data-anchor="about" id="page2">
     @include('section.about')
 </div>
-<div class="section" data-anchor="career">
+<div class="section" data-anchor="career" id="page3">
     @include('section.careers')
 </div>
 <div class="section" data-anchor="contact-us" id="contact-us">

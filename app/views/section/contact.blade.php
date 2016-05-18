@@ -1,6 +1,6 @@
 {{ Theme::asset()->usePath()->add('js-contact', 'js/contact.js') }}
 <script src="http://maps.googleapis.com/maps/api/js"></script>
-<div class="contactLayer">
+<div class="contactLayer" id="contact">
     <!---left---->
     <div class="contactInnerLeft">
         <!--contact top wrapper-->
