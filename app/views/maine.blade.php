@@ -7,3 +7,6 @@
 <div class="section" data-anchor="career">
     career
 </div>
+<div class="section" data-anchor="contact-us" id="contact-us">
+    @include('section.contact')
+</div>

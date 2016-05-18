@@ -1,0 +1,86 @@
+#contact-us{
+    background: #282f39;
+
+}
+.contactLayer{
+    max-width: 1325px;
+    margin: 0 auto;
+}
+
+/****left top contact wrapper ***/
+.topInnerContactLeftWrap{
+    font-size: 24px;
+    color:#ffffff;
+    background: rgba(0, 0, 0, 0) url("../img/lineContact.png") no-repeat scroll 100% 74% / 79% 2px
+}
+/****left lower contact wrapper ***/
+.lowerInnerContactLeftWrap{
+   border: 1px solid red;
+
+}
+
+/****inner lower wrapper ***/
+.innerLeftTxtConWrap{
+    border: 1px solid green;
+    float: left;
+    width: 35%;
+    height: auto;
+}
+.innerDetail1 > p, .innerDetail2 > p, .innerDetail3 > p{
+    color:#a3a3a3;
+}
+.innerDetail1 > img, .innerDetail2 > img, .innerDetail3 > img {
+    padding: 0 5px 5px 0;
+}
+
+/****right container lower ***/
+.innerRightTxtConWrap{
+    border: 1px solid green;
+    float: right;
+    width: 60%;
+}
+.innerRightTxtConWrap p{
+    height: 14px;
+    color:#ffffff;
+}
+
+
+
+
+/****right container ***/
+.contactInnerLeft{
+    border: 1px solid red;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.contactInnerRight{
+    border: 1px solid green;
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+#map{
+    height: 410px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+
+/****footer part ****/
+.contactMapNav {
+    border: 1px solid red;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+
+
+
+.clear{
+    clear:both;
+}
