@@ -67,6 +67,18 @@ return array(
             // {
             //     $view->with('auth', Auth::user());
             // });
+            $theme->asset()->usePath()->add('js-jquery', 'js/jquery-1.11.1.min.js');
+            $theme->asset()->usePath()->add('js-jquery-validate', 'js/jquery.validate.js');
+            $theme->asset()->usePath()->add('js-materialize', 'js/materialize.js');
+            $theme->asset()->usePath()->add('js-fullpagemin', 'js/jquery.fullPage.min.js');
+            $theme->asset()->usePath()->add('js-slimscrollmin', 'js/jquery.slimscroll.min.js');
+            $theme->asset()->usePath()->add('js-easingmin', 'js/jquery.easings.min.js');
+            $theme->asset()->usePath()->add('js-jquery.form', 'js/jquery.form.js');
+            $theme->asset()->usePath()->add('js-home', 'js/home.js');
+
+            $theme->asset()->usePath()->add('css-materialize', 'css/materialize.css');
+            $theme->asset()->usePath()->add('css-fullpagemin', 'css/jquery.fullPage.css');
+            $theme->asset()->usePath()->add('css-favicon', 'css/icon.css');
         },
 
         // Listen on event before render a layout,

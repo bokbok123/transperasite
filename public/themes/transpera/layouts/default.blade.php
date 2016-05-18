@@ -11,7 +11,7 @@
     <body>
         {{ Theme::partial('header') }}
 
-        <div class="container">
+        <div class="fonebayad-container" id="fonebayadFullPage">
             {{ Theme::content() }}
         </div>
 

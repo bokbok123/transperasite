@@ -15,9 +15,14 @@ class HomeController extends BaseController {
 	|
 	*/
 
+    public $theme;
+    public function __construct(){
+        $this->theme = Theme::uses('transpera')->layout('default');
+    }
+
 	public function showWelcome()
 	{
-		return View::make('hello');
+        return $this->theme->of('maine')->render();
 	}
 
 }
