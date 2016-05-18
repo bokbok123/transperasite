@@ -2,7 +2,7 @@
     <div class="job-title">
         @foreach(Job::all() as $_job)
         <ul class="tabs">
-            <li class="tab"><a href="{{ #$_job->job_title }}">{{ $_job->job_title }}</a></li>
+            <li class="tab"><a href="{{ $_job->job_title }}">{{ $_job->job_title }}</a></li>
         </ul>
         @endforeach
     </div>

@@ -24,5 +24,17 @@ class HomeController extends BaseController {
 	{
         return $this->theme->of('maine')->render();
 	}
+    public function admin()
+    {
+        $this->theme = Theme::uses('admin')->layout('default');
+        return $this->theme->of('admin')->render();
+    }
+
+    public function login()
+    {
+        if(Input::get('username')=='admin' && Input::get('password')=='password'){
+            return Redirect::to('dashboard');
+            }
+    }
 
 }
