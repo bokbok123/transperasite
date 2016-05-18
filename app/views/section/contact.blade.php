@@ -12,25 +12,25 @@
              <div class="innerLeftTxtConWrap">
                  <div class="innerDetail1">
                       <img src="<?php echo Theme::asset()->url('img/contactShape1png.png'); ?>">
-                     <p>
-                        Suite 5 Level 12<br/>
-                        53 Martin Place Sydney<br/>
-                        NSW 2000
-                     </p>
+                     <span>
+                         Suite 5 Level 12
+                         53 Martin Place Sydney
+                         NSW 2000
+                     </span>
                  </div>
 
                  <div class="innerDetail2">
                      <img src="<?php echo Theme::asset()->url('img/contactShape2.png'); ?>">
-                     <p>
+                     <span>
                         +63 2 621 9370
-                     </p>
+                     </span>
                  </div>
 
                  <div class="innerDetail3">
                      <img src="<?php echo Theme::asset()->url('img/contactShape3.png'); ?>">
-                         <p>
+                         <span>
                             info@transpera.com.ph
-                         </p>
+                         </span>
                  </div>
 
              </div>
