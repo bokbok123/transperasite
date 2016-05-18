@@ -10,6 +10,14 @@ nav{
     position: fixed;
     z-index: 2;
 }
+nav .button-collapse {
+    top: 35px;
+}
+@media only screen and (max-width: 992px) {
+    nav{
+        padding: 0;
+    }
+}
 nav img {
     vertical-align: middle;
 }

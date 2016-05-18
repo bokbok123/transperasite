@@ -82,6 +82,7 @@ return array(
             $theme->asset()->usePath()->add('css-header', 'css/header.css');
             $theme->asset()->usePath()->add('css-splash', 'css/splash.css');
             $theme->asset()->usePath()->add('css-about', 'css/about.css');
+            $theme->asset()->usePath()->add('css-careers', 'css/careers.css');
         },
 
         // Listen on event before render a layout,
