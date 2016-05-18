@@ -2,5 +2,7 @@
  * Created by jermaine.galman on 5/18/16.
  */
 $(document).ready(function(){
-    $('#fonebayadFullPage').fullpage();
+    $('#fonebayadFullPage').fullpage({
+        anchors: ['maine','about','career']
+    });
 });

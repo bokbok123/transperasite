@@ -79,6 +79,8 @@ return array(
             $theme->asset()->usePath()->add('css-materialize', 'css/materialize.css');
             $theme->asset()->usePath()->add('css-fullpagemin', 'css/jquery.fullPage.css');
             $theme->asset()->usePath()->add('css-favicon', 'css/icon.css');
+            $theme->asset()->usePath()->add('css-header', 'css/header.css');
+            $theme->asset()->usePath()->add('css-splash', 'css/splash.css');
         },
 
         // Listen on event before render a layout,

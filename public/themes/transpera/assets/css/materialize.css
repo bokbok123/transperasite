@@ -7478,7 +7478,88 @@ nav .input-field label.active {
     height: 64px;
   }
 }
+/*********
+FONT FACE
+**********/
+@font-face {
+    font-family: MyriadProBlackItalic;
+    src: url('../font/myriadpro/MyriadProBlackItalic.eot');
+    src: url('../font/myriadpro/MyriadProBlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../font/myriadpro/MyriadProBlackItalic.woff') format('woff'),
+    url('../font/myriadpro/MyriadProBlackItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: MyriadProLightItalic;
+    src: url('../font/myriadpro/MyriadProLightItalic.eot');
+    src: url('../font/myriadpro/MyriadProLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../font/myriadpro/MyriadProLightItalic.woff') format('woff'),
+    url('../font/myriadpro/MyriadProLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MyriadProRegular;
+    src: url('../font/myriadpro/MyriadPro-Regular.eot');
+    src: url('../font/myriadpro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/myriadpro/MyriadPro-Regular.woff') format('woff'),
+    url('../font/myriadpro/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MyriadProBoldItalic;
+    src: url('../font/myriadpro/MyriadProBoldItalic.eot');
+    src: url('../font/myriadpro/MyriadProBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../font/myriadpro/MyriadProBoldItalic.woff') format('woff'),
+    url('../font/myriadpro/MyriadProBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MyriadProSemiBold;
+    src: url('../font/myriadpro/MyriadProSemiBold.eot');
+    src: url('../font/myriadpro/MyriadProSemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../font/myriadpro/MyriadProSemiBold.woff') format('woff'),
+    url('../font/myriadpro/MyriadProSemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: MyriadProSemiBoldItalic;
+    src: url('../font/myriadpro/Myriad Pro Semibold Italic.eot');
+    src: url('../font/myriadpro/Myriad Pro Semibold Italic.eot?#iefix') format('embedded-opentype'),
+    url('../font/myriadpro/Myriad Pro Semibold Italic.woff') format('woff'),
+    url('../font/myriadpro/Myriad Pro Semibold Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AvenirNext-Regular;
+    src: url('../font/avenir/AvenirNextLTPro-Regular.eot');
+    src: url('../font/avenir/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/avenir/AvenirNextLTPro-Regular.woff') format('woff'),
+    url('../font/avenir/AvenirNextLTPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AvenirNextBold;
+    src: url('../font/avenir/AvenirNextBold.eot');
+    src: url('../font/avenir/AvenirNextBold.eot?#iefix') format('embedded-opentype'),
+    url('../font/avenir/AvenirNextBold.woff') format('woff'),
+    url('../font/avenir/AvenirNextBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
   font-family: "Roboto-thin";
   src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
