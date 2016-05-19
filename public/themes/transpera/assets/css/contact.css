@@ -11,7 +11,8 @@
 .topInnerContactLeftWrap{
     font-size: 24px;
     color:#ffffff;
-    background: rgba(0, 0, 0, 0) url("../img/lineContact.png") no-repeat scroll 100% 74% / 79% 2px
+    background: rgba(0, 0, 0, 0) url("../img/lineContact.png") no-repeat scroll 100% 74% / 79% 2px;
+    margin-bottom: 20px;
 }
 /****left lower contact wrapper ***/
 .lowerInnerContactLeftWrap{
@@ -24,32 +25,36 @@
     width: 35%;
     height: auto;
 }
-.innerDetail1 > span,.innerDetail2 > span, .innerDetail3 > span{
-    color:#a3a3a3;
+.innerDetail {
+    color: #a3a3a3;
+    font-family: ralewaylight;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
 }
-
-.innerDetail1 > img, .innerDetail2 > img, .innerDetail3 > img {
-    padding: 0 5px 5px 0;
+.innerDetail img{
+    top: 5px;
+    left: 0;
+    position: absolute;
 }
-
 /****right container lower ***/
 .innerRightTxtConWrap{
-    float: right;
+    float: left;
     width: 60%;
 }
 .innerRightTxtConWrap p{
-    height: 14px;
+    margin: 0;
     color:#ffffff;
 }
 
 /****right container ***/
 .contactInnerLeft{
-    width: 50%;
+    width: 60%;
     float: left;
     height: 100%;
 }
 .contactInnerRight{
-    width: 50%;
+    width: 40%;
     float: right;
     height: 100%;
 }
@@ -57,8 +62,29 @@
     height: 410px;
     width: 100%;
 }
-
-
+div#contact div.form-container .input-field {
+    margin-top: 0;
+}
+div#contact div.form-container .input-field input,
+div#contact div.form-container .input-field textarea {
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    color: #fff;
+    padding-left: 15px;
+    text-indent: 5px;
+}
+div#contact div.form-container .input-field input {
+    height: 30px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+div#contact div.form-container .input-field label {
+    left: 20px;
+    top: 1.2rem;
+}
+div#contact div.form-container .input-field label.active{
+    top: 30px;
+}
 /****footer part ****/
 .contactMapNav {
     bottom: 0;
