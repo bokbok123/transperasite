@@ -49,7 +49,7 @@
                                 <textarea id="textarea1" class="materialize-textarea"></textarea>
                                 <label for="textarea1">Concern</label>
                             </div>
-                            <a class="waves-effect waves-light btn" type="submit">Submit</a>
+                            <a class="waves-effect waves-light btn" type="submit" id="btnSubmit">Submit</a>
                         </div>
                     </form>
             </div>
@@ -70,17 +70,9 @@
     </div>
 
     <div class="contactMapNav">
-        <a class="phDivContact">
-            Philippines
-        </a>
-        <a class="auDivContact">
-            Australia
-        </a>
-
-        <a class="chiDivContact">
-            Chicago
-        </a>
-
+        <a class="waves-effect waves-light phDivContact country-button">Philippines</a>
+        <a class="waves-effect waves-light auDivContact country-button active">Australia</a>
+        <a class="waves-effect waves-light chiDivContact country-button">Chicago</a>
     </div>
 
 </div>

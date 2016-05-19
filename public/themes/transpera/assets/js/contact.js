@@ -3,14 +3,20 @@ $(document).ready(function(){
     australiaMap();
 
     $(".auDivContact").on('click',function(){
+        $('.country-button').removeClass('active');
+        $(this).addClass('active');
         australiaMap();
     });
 
     $(".phDivContact").on('click',function(){
+        $('.country-button').removeClass('active');
+        $(this).addClass('active');
         philippinesMap();
     });
 
     $(".chiDivContact").on('click',function(){
+        $('.country-button').removeClass('active');
+        $(this).addClass('active');
         chicagoMap();
     });
 
