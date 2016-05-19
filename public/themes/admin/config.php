@@ -67,6 +67,11 @@ return array(
             // {
             //     $view->with('auth', Auth::user());
             // });
+            $theme->asset()->usePath()->add('js-jquery', 'js/jquery-1.11.1.min.js');
+            $theme->asset()->usePath()->add('js-jquery-validate', 'js/jquery.validate.js');
+            $theme->asset()->usePath()->add('js-materialize', 'js/materialize.js');
+
+            $theme->asset()->usePath()->add('css-materialize', 'css/materialize.css');
         },
 
         // Listen on event before render a layout,

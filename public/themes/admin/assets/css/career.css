@@ -1,0 +1,68 @@
+div#page4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/careers.png') no-repeat center center / cover;
+    padding-top: 50px;
+}
+div.careers-container{
+    background: transparent none repeat scroll 0 0;
+    border: 8px solid #393c3f;
+    border-radius: 10px;
+    height: 500px;
+    margin: 0 auto;
+    width: 1180px;
+}
+div.careers-container div.job-title{
+    display: table;
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+div.careers-container div.job-title .tabs{
+    background: transparent none repeat scroll 0 0;
+    color: #535963;
+    display: table-cell;
+    padding: 40px 50px 15px 15px;
+}
+div.careers-container div.job-title .tabs a{
+    color: #535963;
+    font-family: MyriadProRegular;
+}
+div.careers-container div.job-title .tabs .tab.active a,
+div.careers-container div.job-title .tabs a:hover{
+    color: #fff;
+}
+div.careers-container div.job-title .tabs .tab{
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: right;
+    width: 90%;
+}
+div.careers-container div.job-title .tabs .tab.active,
+div.careers-container div.job-title .tabs .tab:hover{
+    background-color: #1b2224;
+}
+div.careers-container div.job-title .tabs .indicator{
+    display: none;
+}
+div.careers-container div.job-description{
+    color: #fff;
+    float: left;
+    height: 100%;
+    padding: 35px;
+    width: 70%;
+}
+div.careers-container div.job-description div.job-description-container{
+    font-family: MyriadProRegular;
+    font-size: 14px;
+    height: calc(100% - 45px);
+    overflow-y: auto;
+}
+div.careers-container div.job-description div.button-container{
+    margin-top: 10px;
+}
+div.careers-container div.job-description div.button-container #btnApply{
+    background: #028b73;
+    height: 46px;
+    line-height: 46px;
+    width: 220px;
+}

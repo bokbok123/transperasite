@@ -10,59 +10,51 @@
         </div>
         <!--lower contact wrapper-->
         <div class="lowerInnerContactLeftWrap">
-             <div class="innerLeftTxtConWrap">
-                 <div class="innerDetail1">
+            <div class="innerLeftTxtConWrap">
+                 <div class="innerDetail">
                       <img src="<?php echo Theme::asset()->url('img/contactShape1png.png'); ?>">
                      <span>
-                         Suite 5 Level 12
-                         53 Martin Place Sydney
-                         NSW 2000
+                         Suite 5 Level 12 <br>
+                         53 Martin Place Sydney <br>
+                         NSW 2000 <br>
                      </span>
                  </div>
 
-                 <div class="innerDetail2">
+                 <div class="innerDetail">
                      <img src="<?php echo Theme::asset()->url('img/contactShape2.png'); ?>">
                      <span>
                         +63 2 621 9370
                      </span>
                  </div>
 
-                 <div class="innerDetail3">
+                 <div class="innerDetail">
                      <img src="<?php echo Theme::asset()->url('img/contactShape3.png'); ?>">
                          <span>
                             info@transpera.com.ph
                          </span>
                  </div>
-
              </div>
-
             <div class="innerRightTxtConWrap">
                 <p>You might have other concerns:</p>
                     <form id="frmContact">
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="name" type="text">
-                                <label for="name">Name</label>
+                        <div class="form-container">
+                            <div class="input-field">
+                                <input id="name" class="input-box" type="text" name="name" maxlength="50" aria-required="true">
+                                <label class="" for="name">Name</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="email" type="email">
-                                <label for="email">Email</label>
+                            <div class="input-field">
+                                <input id="email" class="input-box" type="text" name="email" maxlength="50" aria-required="true">
+                                <label class="" for="email">Email</label>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="concern" type="text">
-                                <label for="concern">Concern</label>
+                            <div class="input-field">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Concern</label>
                             </div>
+                            <a class="waves-effect waves-light btn" type="submit">Submit</a>
                         </div>
                     </form>
-                <a class="waves-effect waves-light btn">Submit</a>
-
             </div>
+            <div class="clear"></div>
         </div>
     </div>
 

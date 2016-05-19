@@ -1,0 +1,18 @@
+nav{
+    background: transparent none repeat scroll 0 0;
+    box-shadow: none;
+    color: #fff;
+    font-family: AvenirNext-Regular;
+    font-size: 18px;
+    height: 120px;
+    line-height: 120px;
+    padding: 0 100px;
+    position: fixed;
+    z-index: 2;
+}
+nav img {
+    vertical-align: middle;
+}
+nav ul a {
+    font-size: 18px;
+}
