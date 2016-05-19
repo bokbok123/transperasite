@@ -15,7 +15,7 @@
     @include('section.partners')
 </div>
 <div class="section" data-anchor="announcements" id="page6">
-    @include('section.partners')
+    @include('section.announcements')
 </div>
 <div class="section" data-anchor="contact-us" id="page7">
     @include('section.contact')
