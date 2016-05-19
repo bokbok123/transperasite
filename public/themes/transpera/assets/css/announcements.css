@@ -1,0 +1,63 @@
+div#page6{
+    background: url('../img/announcements.png') no-repeat center center / 100% 100%;
+}
+div.announcements-container {
+    padding-top: 25px;
+}
+div.announcements-container div.header{
+    color: #ffffff;
+    font-family: RalewayLight;
+    text-align: center;
+}
+div.announcements-container div.header h1{
+    font-size: 35px;
+}
+div.announcements-container .slider .slides{
+    background: transparent;
+}
+div.announcements-container .each-ann{
+    border: 1px solid #4e4d4d;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 auto 15px;
+    width: 80%;
+}
+div.announcements-container div.each-img{
+    margin: 0 auto;
+    width: 80%;
+}
+div.announcements-container div.button-container{
+    text-align: center;
+}
+div.announcements-container div.button-container a#prev {
+    text-align: left;
+    padding-left: 50px;
+    margin-right: 10px;
+}
+div.announcements-container div.button-container a#prev img {
+    left: 10px;
+    margin: 0 7px;
+    position: absolute;
+    top: 15px;
+}
+div.announcements-container div.button-container a#next {
+    text-align: right;
+    padding-right: 50px;
+    margin-left: 10px;
+}
+div.announcements-container div.button-container a#next img {
+    right: 10px;
+    margin: 0 7px;
+    position: absolute;
+    top: 15px;
+}
+
+div.announcements-container div.button-container #prev,
+div.announcements-container div.button-container #next {
+    background: #393737 none repeat scroll 0 0;
+    color: #a2a09f;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    width: 110px;
+}

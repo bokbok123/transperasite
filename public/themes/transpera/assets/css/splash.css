@@ -5,7 +5,8 @@ div#page1 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/splash.png') no-repeat fixed center center / 100% 100%;
 }
 div.splashContainer {
-    margin-left: 190px;
+    margin-left: 120px;
+    max-width: 705px;
 }
 div.homepageContent span{
     color: #fff;
@@ -13,10 +14,10 @@ div.homepageContent span{
     font-family: MyriadProSemiBold;
 }
 div.homepageContent span.homepageText1{
-    font-size: 70px;
+    font-size: 45px;
 }
 div.homepageContent span.homepageText2{
-    font-size: 28px;
+    font-size: 24px;
 }
 div.homepageDownloadContainer {
     margin-top: 75px;

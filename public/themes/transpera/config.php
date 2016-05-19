@@ -85,6 +85,7 @@ return array(
             $theme->asset()->usePath()->add('css-features', 'css/features.css');
             $theme->asset()->usePath()->add('css-career', 'css/career.css');
             $theme->asset()->usePath()->add('css-partners', 'css/partners.css');
+            $theme->asset()->usePath()->add('css-ann', 'css/announcements.css');
             $theme->asset()->usePath()->add('css-contact', 'css/contact.css');
         },
 
