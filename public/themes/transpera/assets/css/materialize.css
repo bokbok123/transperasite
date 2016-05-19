@@ -7482,6 +7482,24 @@ nav .input-field label.active {
 FONT FACE
 **********/
 @font-face {
+    font-family: RalewayRegular;
+    src: url('../font/raleway/Raleway-Regular.eot');
+    src: url('../font/raleway/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/raleway/Raleway-Regular.woff') format('woff'),
+    url('../font/raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: RalewayLight;
+    src: url('../font/raleway/Raleway-Light.eot');
+    src: url('../font/raleway/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+    url('../font/raleway/Raleway-Light.woff') format('woff'),
+    url('../font/raleway/Raleway-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: MyriadProBlackItalic;
     src: url('../font/myriadpro/MyriadProBlackItalic.eot');
     src: url('../font/myriadpro/MyriadProBlackItalic.eot?#iefix') format('embedded-opentype'),

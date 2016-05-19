@@ -12,7 +12,7 @@
             <div id="{{ $_job->id }}" class="job-description-container">{{ $_job->job_desc }}</div>
         @endforeach
         <div class="button-container">
-            <a class="waves-effect waves-light btn">Apply Now!</a>
+            <a class="waves-effect waves-light btn" id="btnApply">Apply Now!</a>
         </div>
     </div>
 </div>
