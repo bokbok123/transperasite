@@ -40,7 +40,7 @@
 /****right container lower ***/
 .innerRightTxtConWrap{
     float: left;
-    width: 60%;
+    width: 65%;
 }
 .innerRightTxtConWrap p{
     margin: 0;
@@ -52,15 +52,20 @@
     width: 60%;
     float: left;
     height: 100%;
+    padding-right: 20px;
 }
 .contactInnerRight{
     width: 40%;
     float: right;
     height: 100%;
+    padding-top: 25px;
 }
 #map{
-    height: 410px;
+    height: 355px;
     width: 100%;
+}
+div#contact div.form-container {
+    text-align: right;
 }
 div#contact div.form-container .input-field {
     margin-top: 0;
@@ -70,8 +75,7 @@ div#contact div.form-container .input-field textarea {
     border: 1px solid #a3a3a3;
     border-radius: 4px;
     color: #fff;
-    padding-left: 15px;
-    text-indent: 5px;
+    text-indent: 20px;
 }
 div#contact div.form-container .input-field input {
     height: 30px;
@@ -85,6 +89,11 @@ div#contact div.form-container .input-field label {
 div#contact div.form-container .input-field label.active{
     top: 30px;
 }
+div#contact div.form-container #btnSubmit {
+    height: 45px;
+    line-height: 45px;
+    width: 220px;
+}
 /****footer part ****/
 .contactMapNav {
     bottom: 0;
@@ -93,7 +102,25 @@ div#contact div.form-container .input-field label.active{
     right: 0;
     width: 100%;
 }
-
+div#contact div.contactMapNav a.country-button {
+    background: #222831 none repeat scroll 0 0;
+    color: #9d9d9e;
+    float: left;
+    font-family: ralewaylight;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+    width: 33.33%;
+}
+div#contact div.contactMapNav a.country-button.active {
+    background-attachment: scroll;
+    background-color: #028b73;
+    background-image: url("../img/icons/pointer.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    color: #222831;
+}
 .clear{
     clear:both;
 }
