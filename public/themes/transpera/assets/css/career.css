@@ -11,10 +11,10 @@ div.careers-container{
     width: 1180px;
 }
 div.careers-container div.job-title{
-    display: table;
     float: left;
     height: 100%;
     width: 30%;
+    overflow-y: auto;
 }
 div.careers-container div.job-title .tabs{
     background: transparent none repeat scroll 0 0;
