@@ -16,7 +16,7 @@
     <?php echo $__env->make('section.partners', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 </div>
 <div class="section" data-anchor="announcements" id="page6">
-    <?php echo $__env->make('section.partners', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <?php echo $__env->make('section.announcements', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 </div>
 <div class="section" data-anchor="contact-us" id="page7">
     <?php echo $__env->make('section.contact', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

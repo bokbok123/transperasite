@@ -1,0 +1,82 @@
+div#features-container {
+    background: url('../img/features.png') no-repeat center center / 100% 100%;
+    height: 100%;
+}
+div.features-container div.benefits-container .image-container{
+    float: left;
+    width: 20%;
+}
+div.features-container div.benefits-container .image-container img {
+    vertical-align: middle;
+}
+div.features-container div.benefits-container .description-container{
+    float: left;
+    max-width: 290px;
+    padding-top: 20px;
+    width: 80%;
+}
+div.features-container div.benefits-container .description-container span.header{
+    color: #028b73;
+    font-family: RalewayLight;
+    font-size: 25px;
+}
+div.features-container div.benefits-container .description-container p.content{
+    color: #fff;
+    font-family: RalewayRegular;
+    font-size: 14px;
+}
+
+div#apple-watch-container {
+    background: url('../img/iwatch.png') no-repeat center center / 100% 100%;
+    height: 100%;
+}
+div#apple-watch-container div#advanced-technology{
+    color: #028b73;
+    font-family: RalewayLight;
+    text-align: right;
+}
+
+/** Features Nav **/
+div.sidenavContainer {
+    bottom: 0;
+    display: table;
+    height: calc(100% - 80px);
+    padding-bottom: 50px;
+    padding-top: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    z-index: 100;
+}
+div.sidenavWrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+div.sidenavWrapper ul.sidenavUl{
+    direction: rtl;
+}
+ul.sidenavUl li.sidenavLi {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 55px;
+    padding: 15px 20px;
+    text-align: left;
+    width: 140px;
+}
+ul.sidenavUl li.sidenavLi.active {
+    background: #028b73 none repeat scroll 0 0;
+    font-size: 25px;
+    height: 65px;
+    min-width: 155px;
+    padding-left: 25px;
+    width: auto;
+}
+ul.sidenavUl li.sidenavLi.active a {
+    color: #fff;
+}
+ul.sidenavUl li.sidenavLi a{
+    color: #282f39;
+    font-family: MyriadProRegular;
+}
