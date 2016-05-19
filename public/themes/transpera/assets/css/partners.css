@@ -1,0 +1,33 @@
+div#page5{
+    background: url('../img/partners.png') no-repeat center center / 100% 100%;
+}
+div.partners-container div.partners-row {
+    background: #fff;
+    margin: 0 auto;
+}
+div.partners-container div.partners-column{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+div.partners-row div.partners-column:first-child {
+    background: #0f7464;
+}
+div.partners-row div.partners-column#banks {
+    background: #fff;
+    padding-top: 50px;
+}
+div.partners-container div.partners-column img{
+    margin: 30px 10px;
+}
+div.partners-container div.col-container {
+    font-family: RalewayRegular;
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+div.partners-container div.col-container h1 {
+    color: #282f39;
+    font-size: 110px;
+    opacity: 0.3;
+}
