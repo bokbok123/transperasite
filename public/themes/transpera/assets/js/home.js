@@ -8,6 +8,7 @@ $(document).ready(function(){
         anchors: ['transpera','about','feats','career','partners','announcements','contact-us'],
         controlArrows: false
     });
+    $('.careers-container').parent().css('padding-top','100px');
     $('.job-description-container').slimScroll({
         alwaysVisible:  true,
         color:          '#028b73',
@@ -29,7 +30,10 @@ $(document).ready(function(){
         $.fn.fullpage.setAllowScrolling(true);
     });
     $('.job-title .tabs').on('click','a',function(){
-        console.log($(this).attr('id'));
+        var id = $(this).attr('href');
         console.log($(this).html());
+        $('.job-description .slimScrollDiv').hide();
+        $('.job-description .slimScrollDiv ' + id).show();
+        $('.job-description .slimScrollDiv ' + id).parent().show();
     });
 });
