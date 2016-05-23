@@ -36,7 +36,7 @@ return array(
         'before' => function($theme)
         {
             // You can remove this line anytime.
-            $theme->setTitle('Copyright ©  2013 - Laravel.in.th');
+            $theme->setTitle('Transpera');
 
             // Breadcrumb template.
             // $theme->breadcrumb()->setTemplate('
@@ -83,6 +83,7 @@ return array(
             $theme->asset()->usePath()->add('css-splash', 'css/splash.css');
             $theme->asset()->usePath()->add('css-about', 'css/about.css');
             $theme->asset()->usePath()->add('css-features', 'css/features.css');
+            $theme->asset()->usePath()->add('css-ss', 'css/screenshots.css');
             $theme->asset()->usePath()->add('css-career', 'css/career.css');
             $theme->asset()->usePath()->add('css-partners', 'css/partners.css');
             $theme->asset()->usePath()->add('css-ann', 'css/announcements.css');

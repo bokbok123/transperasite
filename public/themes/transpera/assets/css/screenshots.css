@@ -1,0 +1,37 @@
+div#screenshots-container {
+    background: url('../img/screenshot.png') no-repeat center center / 100% 100%;
+    height: 100%;
+}
+div#screenshots-container .screenshots{
+    margin-top: 100px;
+    padding-right: 100px;
+}
+div#screenshots-container .screenshots .carousel-button{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    margin-top: -50px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+div#screenshots-container .screenshots #ss-prev{
+    left: 7%;
+}
+div#screenshots-container .screenshots #ss-next{
+    right: 7%;
+}
+div#screenshots-container .screenshots .slides{
+    background: transparent;
+}
+div#screenshots-container .ul-container ul li {
+    text-align: center;
+}
+div#screenshots-container .ss-container{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    margin: 0 14px;
+    width: 200px;
+}

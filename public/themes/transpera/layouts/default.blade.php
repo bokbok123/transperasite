@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="keywords" content="{{ Theme::get('keywords') }}">
         <meta name="description" content="{{ Theme::get('description') }}">
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
         {{ Theme::asset()->styles() }}
         {{ Theme::asset()->scripts() }}
     </head>

@@ -2,29 +2,30 @@ div#page5{
     background: url('../img/partners.png') no-repeat center center / 100% 100%;
 }
 div.partners-container div.partners-row {
-    background: #fff;
+    display: table;
+    height: 100%;
     margin: 0 auto;
+    width: 100%;
 }
 div.partners-container div.partners-column{
-    float: left;
-    width: 50%;
+    display: table-cell;
+    height: 100%;
     padding: 20px;
+    vertical-align: middle;
+    width: 50%;
 }
 div.partners-row div.partners-column:first-child {
     background: #0f7464;
 }
+div.partners-row div.partners-column:first-child div.col-container{
+    display: table-cell;
+    vertical-align: middle;
+}
 div.partners-row div.partners-column#banks {
     background: #fff;
-    padding-top: 30px;
 }
 div.partners-container div.partners-column img{
     margin: 30px 10px;
-}
-div.partners-container div.col-container {
-    font-family: RalewayRegular;
-    font-size: 14px;
-    max-width: 600px;
-    margin: 0 auto;
 }
 div.partners-container div.col-container h1 {
     color: #282f39;

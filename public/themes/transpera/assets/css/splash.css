@@ -8,6 +8,12 @@ div.splashContainer {
     margin-left: 120px;
     max-width: 705px;
 }
+@media only screen and (max-width: 992px) {
+    div.splashContainer {
+        margin-left: 0;
+        max-width: 705px;
+    }
+}
 div.homepageContent span{
     color: #fff;
     display: block;

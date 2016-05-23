@@ -8,9 +8,11 @@
         </ul>
     </div>
     <div class="job-description">
+        <div class="parent-container">
         @foreach($jobs as $_job)
             <div id="{{ $_job->id }}" class="job-description-container">{{ $_job->job_desc }}</div>
         @endforeach
+        </div>
         <div class="button-container">
             <a class="waves-effect waves-light btn" id="btnApply">Apply Now!</a>
         </div>

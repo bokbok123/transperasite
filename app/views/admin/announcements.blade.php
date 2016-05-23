@@ -12,7 +12,12 @@
 
 </textarea>
 <script>
-    CKEDITOR.replace( 'editor1' );
+    var roxyFileman = 'fileman/index.html';
+    $(function(){
+        CKEDITOR.replace( 'editor1',{filebrowserBrowseUrl:roxyFileman,
+            filebrowserImageBrowseUrl:roxyFileman+'?type=image',
+            removeDialogTabs: 'link:upload;image:upload'});
+    });
 </script>
 <p>{{ Form::submit('Submit!') }}</p>
 {{ Form::close() }}

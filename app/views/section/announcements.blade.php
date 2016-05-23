@@ -24,14 +24,17 @@
 
 <script>
     $(document).ready(function(){
-        $('.slider').slider({
+        $('.each-ann').slider({
             indicators: false
         });
+        $('.each-ann').slider('pause');
         $('#prev').on('click',function(){
-            $('.slider').slider('prev');
+            $('.each-ann').slider('prev');
+            $('.each-ann').slider('pause');
         });
         $('#next').on('click',function(){
-            $('.slider').slider('next');
+            $('.each-ann').slider('next');
+            $('.each-ann').slider('pause');
         });
     });
 </script>

@@ -51,11 +51,15 @@ div.careers-container div.job-description{
     padding: 35px;
     width: 70%;
 }
+div.careers-container div.job-description div.parent-container{
+    height: calc(100% - 45px);
+}
 div.careers-container div.job-description div.job-description-container{
     font-family: MyriadProRegular;
     font-size: 14px;
     height: calc(100% - 45px);
     overflow-y: auto;
+    padding-right: 75px;
 }
 div.careers-container div.job-description div.button-container{
     margin-top: 10px;

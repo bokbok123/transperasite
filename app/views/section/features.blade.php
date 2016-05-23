@@ -37,7 +37,20 @@
     </div>
 </div>
 <div id="screenshots-container" class="slide features-container" data-anchor="screenshots">
-    SS
+    <div class="screenshots">
+        <div class="slider ul-container">
+            <a class="waves-effect waves-light carousel-button" id="ss-prev"><img src="{{ Theme::asset()->url('img/icons/ss-left.png') }}"></a>
+            <a class="waves-effect waves-light carousel-button" id="ss-next"><img src="{{ Theme::asset()->url('img/icons/ss-right.png') }}"></a>
+            <ul class="slides">
+                <?php $x = Screenshot::all(); ?>
+                @foreach($x as $ss => $key)
+                @if($ss == 0 || $ss%4 == 0)<li>@endif
+                    <img class="ss-container" src="screencaps/{{ $key->filename }}">
+                @if(($ss+1)%4 == 0 || end($x) == $key)</li>@endif
+                @endforeach
+            </ul>
+        </div>
+    </div>
 </div>
 <div id="apple-watch-container" class="slide features-container" data-anchor="apple-watch">
     <div class="row">
@@ -72,3 +85,17 @@
     </div>
 </div>
 
+<script>
+    $(document).ready(function(){
+        $('.ul-container').slider();
+        $('.ul-container').slider('pause');
+        $('#ss-prev').on('click',function(){
+            $('.ul-container').slider('prev');
+            $('.ul-container').slider('pause');
+        });
+        $('#ss-next').on('click',function(){
+            $('.ul-container').slider('next');
+            $('.ul-container').slider('pause');
+        });
+    });
+</script>
