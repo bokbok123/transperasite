@@ -31,3 +31,15 @@ div.homepageDownloadContainer {
 div.homepageDownloadContainer img {
     margin-right: 20px;
 }
+div.nextPageContainer {
+    bottom: 0;
+    left: 0;
+    margin-bottom: 25px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+}
+div.nextPageContainer img {
+    cursor: pointer;
+}

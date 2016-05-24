@@ -1,0 +1,40 @@
+html {
+    background: url('../img/portalbg.jpg') no-repeat fixed center center / cover;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+nav {
+    background: transparent none repeat scroll 0 0;
+    box-shadow: none;
+}
+nav .nav-wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+nav .nav-wrapper .brand-logo img{
+    vertical-align: middle;
+}
+div.container {
+    width: 85%;
+}
+table > thead {
+    background: #1f1f1f none repeat scroll 0 0;
+    border: medium none;
+    color: #ffffff;
+}
+table > thead th {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8px 10px;
+}
+table > tbody {
+    background: #ffffff none repeat scroll 0 0;
+}
+
+table > tbody > tr > td {
+    border-top: 1px solid #d6dadc;
+    font-size: 11px;
+    padding: 8px 10px;
+}

@@ -84,7 +84,9 @@
         </div>
     </div>
 </div>
-
+<div class="nextPageContainer">
+    <a href="#career"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
+</div>
 <script>
     $(document).ready(function(){
         $('.ul-container').slider();

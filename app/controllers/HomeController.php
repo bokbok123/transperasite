@@ -26,7 +26,7 @@ class HomeController extends BaseController {
 	}
     public function admin()
     {
-        $this->theme = Theme::uses('admin')->layout('default');
+        $this->theme = Theme::uses('admin')->layout('admin');
         return $this->theme->of('admin')->render();
     }
 

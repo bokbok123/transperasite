@@ -27,7 +27,7 @@
 }
 .innerDetail {
     color: #a3a3a3;
-    font-family: ralewaylight;
+    font-family: RalewayLight;
     margin-bottom: 10px;
     padding-left: 25px;
     position: relative;
@@ -106,7 +106,7 @@ div#contact div.contactMapNav a.country-button {
     background: #222831 none repeat scroll 0 0;
     color: #9d9d9e;
     float: left;
-    font-family: ralewaylight;
+    font-family: RalewayLight;
     font-size: 30px;
     line-height: 75px;
     text-align: center;

@@ -3,7 +3,7 @@
         <?php $jobs = Job::all() ?>
         <ul class="tabs">
         @foreach($jobs as $_job)
-            <li class="tab"><a href="{{ '#'.$_job->id }}">{{ $_job->job_title }}</a></li>
+            <li class="tab waves-effect waves-light"><a href="{{ '#'.$_job->id }}">{{ $_job->job_title }}</a></li>
         @endforeach
         </ul>
     </div>
@@ -17,6 +17,9 @@
             <a class="waves-effect waves-light btn" id="btnApply">Apply Now!</a>
         </div>
     </div>
+</div>
+<div class="nextPageContainer">
+    <a href="#partners"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
 </div>
 <script>
     $(document).ready(function(){

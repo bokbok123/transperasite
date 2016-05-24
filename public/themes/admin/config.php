@@ -72,6 +72,7 @@ return array(
             $theme->asset()->usePath()->add('js-materialize', 'js/materialize.js');
 
             $theme->asset()->usePath()->add('css-materialize', 'css/materialize.css');
+            $theme->asset()->usePath()->add('css-global', 'css/global.css');
         },
 
         // Listen on event before render a layout,

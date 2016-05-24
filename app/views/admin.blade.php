@@ -1,26 +1,18 @@
-<!doctype html>
-<html>
-<head>
-    <title>Look at me Login</title>
-</head>
-<body>
+{{ Theme::asset()->usePath()->add('css-admin', 'css/adminLogin.css') }}
 
-{{ Form::open(array('url' => 'login')) }}
-<h1>Login</h1>
-
-<!-- if there are login errors, show them here -->
-<p>
-    {{ $errors->first('username') }}
-    {{ $errors->first('password') }}
-</p>
-
-<p>
-    {{ Form::text('username', Input::old('username'), array('placeholder' => 'username')) }}
-</p>
-
-<p>
-    {{ Form::password('password', array('placeholder' => 'password')) }}
-</p>
-
-<p>{{ Form::submit('Submit!') }}</p>
-{{ Form::close() }}
+<div class="parent-container">
+    <div class="logo-container"><img src="{{ Theme::asset()->url('img/transperalogo.png') }}"></div>
+    <div class="form-container">
+        {{ Form::open(array('url' => 'login')) }}
+        <div class="input-field">
+            {{ Form::text('username', Input::old('username')) }}
+            <label for="username">Username</label>
+        </div>
+        <div class="input-field">
+            {{ Form::password('password') }}
+            <label for="password">Password</label>
+        </div>
+        <button id="btnSubmit" class="waves-effect waves-light btn" type="submit">Submit</button>
+        {{ Form::close() }}
+    </div>
+</div>

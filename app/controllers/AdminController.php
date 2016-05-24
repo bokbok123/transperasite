@@ -21,9 +21,17 @@ class AdminController extends BaseController {
 
     public function create_announcements()
     {
-        $ann = new Announcement();
+        $attachment = "";
+        if (Input::hasFile('attach'))
+        {
+            $file = Input::file('attach');
+            $file->move('uploads', $file->getClientOriginalName());
+            $attachment = $file->getClientOriginalName();
+        }
+        $ann = Input::get('ann_id') ? Announcement::find(Input::get('ann_id')) : new Announcement();
         $ann->ann_title = Input::get('ann_title');
         $ann->ann_body = Input::get('editor1');
+        $ann->ann_attachment = $attachment;
         $ann->save();
 
         return Redirect::to('announcements');
@@ -31,11 +39,7 @@ class AdminController extends BaseController {
 
     public function create_job()
     {
-        if(Input::get('job_id')){
-            $job = Job::find(Input::get('job_id'));
-        }else{
-            $job = new Job();
-        }
+        $job = Input::get('job_id') ? Job::find(Input::get('job_id')) : new Job();
 
         $job->job_title = Input::get('job_title');
         $job->job_desc = Input::get('editor1');

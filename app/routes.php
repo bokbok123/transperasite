@@ -14,8 +14,12 @@
 Route::get('/', 'HomeController@showWelcome');
 Route::get('admin', 'HomeController@admin');
 Route::post('login', 'HomeController@login');
-Route::post('create_job', 'AdminController@create_job');
-Route::post('create_announcements', 'AdminController@create_announcements');
-Route::get('dashboard', 'AdminController@dashboard');
-Route::get('careers', 'AdminController@careers');
-Route::get('announcements', 'AdminController@announcements');
+
+Route::group(array('before' => 'auth.login'), function()
+{
+    Route::post('create_job', 'AdminController@create_job');
+    Route::post('create_announcements', 'AdminController@create_announcements');
+    Route::get('dashboard', 'AdminController@dashboard');
+    Route::get('careers', 'AdminController@careers');
+    Route::get('announcements', 'AdminController@announcements');
+});

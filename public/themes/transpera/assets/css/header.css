@@ -21,3 +21,7 @@ nav img {
 nav ul a {
     font-size: 18px;
 }
+nav ul#menu a:hover {
+    background: none;
+    text-decoration: underline;
+}

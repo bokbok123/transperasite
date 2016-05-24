@@ -15,7 +15,7 @@
             {{ Theme::content() }}
         </div>
 
-        {{ Theme::partial('footer') }}
+        {{-- Theme::partial('footer') --}}
 
         {{ Theme::asset()->container('footer')->scripts() }}
     </body>

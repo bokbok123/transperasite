@@ -14,17 +14,31 @@ div.announcements-container div.header h1{
 }
 div.announcements-container .slider .slides{
     background: transparent;
+    max-height: 340px;
+}
+div.announcements-container .slider .slides li{
+    max-height: inherit;
 }
 div.announcements-container .each-ann{
     border: 1px solid #4e4d4d;
     border-left: 0;
     border-right: 0;
     margin: 0 auto 15px;
+    max-height: 340px;
     width: 80%;
 }
-div.announcements-container div.each-img{
+div.announcements-container div.each{
+    height: inherit;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
+}
+div.announcements-container div.each-content{
+    color: #fff;
+    float: left;
+    font-family: RalewayRegular;
+    font-size: 14px;
+    height: 100%;
+    padding: 20px 0;
 }
 div.announcements-container div.button-container{
     text-align: center;
