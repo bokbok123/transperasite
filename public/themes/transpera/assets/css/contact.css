@@ -82,6 +82,11 @@ div#contact div.form-container .input-field input {
     padding-bottom: 5px;
     padding-top: 20px;
 }
+div#contact div.form-container .input-field input.error,
+div#contact div.form-container .input-field textarea.error {
+    border: 1px solid #d85e63;
+    box-shadow: 0 1px 0 0 #d85e63;
+}
 div#contact div.form-container .input-field label {
     left: 20px;
     top: 1.2rem;
@@ -95,6 +100,21 @@ div#contact div.form-container #btnSubmit {
     text-transform: none;
     width: 220px;
 }
+div#registration-error-field{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #d85e63;
+    display: block;
+    margin: 5px 0;
+    padding: 7px 5px 7px 35px;
+    position: relative;
+    text-align: left;
+}
+div#registration-error-field i#error-icon{
+    left: 5px;
+    position: absolute;
+}
+
 /****footer part ****/
 .contactMapNav {
     bottom: 0;

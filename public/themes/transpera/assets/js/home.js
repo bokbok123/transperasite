@@ -8,7 +8,6 @@ $(document).ready(function(){
         anchors: ['transpera','about','feats','career','partners','announcements','contact-us'],
         controlArrows: false
     });
-    /*$('.careers-container').parent().css('padding-top','100px');*/
     $('.job-description-container').slimScroll({
         alwaysVisible:  true,
         color:          '#028b73',

@@ -8,7 +8,7 @@ nav{
     line-height: 120px;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 1003;
 }
 nav div.nav-wrapper {
     margin: 0 auto;
