@@ -25,6 +25,7 @@ div.careers-container div.job-title .tabs{
 div.careers-container div.job-title .tabs a{
     color: #535963;
     font-family: MyriadProRegular;
+    text-transform: none;
 }
 div.careers-container div.job-title .tabs .tab.active a,
 div.careers-container div.job-title .tabs a:hover{
@@ -53,6 +54,7 @@ div.careers-container div.job-description{
 }
 div.careers-container div.job-description div.parent-container{
     height: calc(100% - 45px);
+    padding-bottom: 10px;
 }
 div.careers-container div.job-description div.job-description-container{
     font-family: MyriadProRegular;
@@ -68,5 +70,6 @@ div.careers-container div.job-description div.button-container #btnApply{
     background: #028b73;
     height: 46px;
     line-height: 46px;
+    text-transform: none;
     width: 220px;
 }

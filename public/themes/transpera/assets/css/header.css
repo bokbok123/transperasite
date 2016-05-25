@@ -15,13 +15,11 @@ nav div.nav-wrapper {
     max-width: 1160px;
     width: 100%;
 }
-nav img {
-    vertical-align: middle;
-}
 nav ul a {
     font-size: 18px;
 }
-nav ul#menu a:hover {
+nav ul#menu a:hover,
+nav ul li.active {
     background: none;
     text-decoration: underline;
 }

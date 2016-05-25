@@ -13,7 +13,7 @@ $(document).ready(function(){
         alwaysVisible:  true,
         color:          '#028b73',
         distance:       '5px',
-        height:         '40vh',
+        height:         '100%',
         railColor:      '#a2a09f',
         size:           '3px'
     });
@@ -46,6 +46,14 @@ $(document).ready(function(){
         } else {
             $('.nextPageContainer').fadeIn();
         }
-
+        addActive('location.hash');
     };
+
+    function addActive(hash){
+        switch (hash){
+            case '#transpera': {
+                break;
+            }
+        }
+    }
 });

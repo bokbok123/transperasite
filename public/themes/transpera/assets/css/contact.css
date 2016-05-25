@@ -92,6 +92,7 @@ div#contact div.form-container .input-field label.active{
 div#contact div.form-container #btnSubmit {
     height: 45px;
     line-height: 45px;
+    text-transform: none;
     width: 220px;
 }
 /****footer part ****/
