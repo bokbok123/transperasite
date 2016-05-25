@@ -13,7 +13,4 @@
         </p>
     </div>
 </div>
-<div class="nextPageContainer">
-    <a href="#feats"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
-</div>
 

@@ -24,9 +24,6 @@
         <a class="waves-effect waves-light" id="next">NEXT <img src="{{ Theme::asset()->url('img/icons/next.png') }}"></a>
     </div>
 </div>
-<div class="nextPageContainer">
-    <a href="#contact-us"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
-</div>
 
 <script>
     $(document).ready(function(){

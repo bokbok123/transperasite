@@ -15,6 +15,3 @@
         </a>
     </div>
 </div>
-<div class="nextPageContainer">
-    <a href="#about"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
-</div>

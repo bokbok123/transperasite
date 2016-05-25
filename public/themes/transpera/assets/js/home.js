@@ -35,4 +35,16 @@ $(document).ready(function(){
         $('.job-description .slimScrollDiv ' + id).show();
         $('.job-description .slimScrollDiv ' + id).parent().show();
     });
+    $('#nextPage').on('click',function(){
+        $.fn.fullpage.moveSectionDown();
+    });
+    window.onhashchange = function(){
+        console.log(location.hash);
+        if(location.hash == "#contact-us"){
+            $('.nextPageContainer').fadeOut();
+        } else {
+            $('.nextPageContainer').fadeIn();
+        }
+
+    };
 });

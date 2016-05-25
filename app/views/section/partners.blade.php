@@ -18,7 +18,4 @@
         <div class="clear"></div>
     </div>
 </div>
-<div class="nextPageContainer">
-    <a href="#announcements"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
-</div>
 

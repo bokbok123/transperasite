@@ -18,9 +18,6 @@
         </div>
     </div>
 </div>
-<div class="nextPageContainer">
-    <a href="#partners"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
-</div>
 <script>
     $(document).ready(function(){
         $('.job-title .tabs').on('click','li',function(){

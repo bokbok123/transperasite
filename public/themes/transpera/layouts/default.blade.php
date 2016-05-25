@@ -15,5 +15,8 @@
         <div class="fonebayad-container" id="fonebayadFullPage">
             {{ Theme::content() }}
         </div>
+        <div class="nextPageContainer">
+            <a id="nextPage"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
+        </div>
     </body>
 </html>
