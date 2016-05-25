@@ -13,7 +13,7 @@ $(document).ready(function(){
         alwaysVisible:  true,
         color:          '#028b73',
         distance:       '5px',
-        height:         '50vh',
+        height:         '40vh',
         railColor:      '#a2a09f',
         size:           '3px'
     });
