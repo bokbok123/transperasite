@@ -29,6 +29,8 @@ $(document).ready(function(){
         $.fn.fullpage.setMouseWheelScrolling(true);
         $.fn.fullpage.setAllowScrolling(true);
     });
+    var height = $('.careers-container').parent().height() - 200;
+    $('.careers-container').parent().css('height',height+'px').css('padding-top','120px').css('padding-bottom','80px');
     $('.job-title .tabs').on('click','a',function(){
         var id = $(this).attr('href');
         $('.job-description .slimScrollDiv').hide();
@@ -39,7 +41,6 @@ $(document).ready(function(){
         $.fn.fullpage.moveSectionDown();
     });
     window.onhashchange = function(){
-        console.log(location.hash);
         if(location.hash == "#contact-us"){
             $('.nextPageContainer').fadeOut();
         } else {
