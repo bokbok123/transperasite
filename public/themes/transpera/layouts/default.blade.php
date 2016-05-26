@@ -6,6 +6,7 @@
         <meta name="keywords" content="{{ Theme::get('keywords') }}">
         <meta name="description" content="{{ Theme::get('description') }}">
         <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         {{ Theme::asset()->styles() }}
         {{ Theme::asset()->scripts() }}
     </head>
