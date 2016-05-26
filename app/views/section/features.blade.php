@@ -73,8 +73,8 @@
 <div id="screenshots-container" class="slide features-container" data-anchor="screenshots">
     <div class="screenshots">
         <div class="slider ul-container">
-            <a class="waves-effect waves-light carousel-button" id="ss-prev"><img src="{{ Theme::asset()->url('img/icons/ss-left.png') }}"></a>
-            <a class="waves-effect waves-light carousel-button" id="ss-next"><img src="{{ Theme::asset()->url('img/icons/ss-right.png') }}"></a>
+            <a class="carousel-button" id="ss-prev"><img src="{{ Theme::asset()->url('img/icons/ss-left.png') }}"></a>
+            <a class="carousel-button" id="ss-next"><img src="{{ Theme::asset()->url('img/icons/ss-right.png') }}"></a>
             <ul class="slides">
                 <?php $x = Screenshot::all(); ?>
                 @foreach($x as $ss => $key)

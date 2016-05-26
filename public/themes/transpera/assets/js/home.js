@@ -48,14 +48,5 @@ $(document).ready(function(){
         } else {
             $('.nextPageContainer').fadeIn();
         }
-        addActive('location.hash');
     };
-
-    function addActive(hash){
-        switch (hash){
-            case '#transpera': {
-                break;
-            }
-        }
-    }
 });
