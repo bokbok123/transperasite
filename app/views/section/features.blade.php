@@ -1,6 +1,6 @@
 <div id="features-container" class="slide features-container" data-anchor="benefits">
     <div class="row">
-        <div class="col m6 offset-m6">
+        <div class="col m6 offset-m6 hide-on-med-and-down">
             <div class="benefits-container" id="bills-presentment">
                 <div class="image-container">
                     <img src="{{ Theme::asset()->url('img/icons/icon-presentment.png'); }}">
@@ -35,6 +35,40 @@
             </div>
         </div>
     </div>
+    <div class="slider col m6 offset-m6" id="feats-carousel">
+        <ul class="slides">
+            <li>
+                <div class="benefits-container" id="bills-presentment">
+                    <div class="description-container">
+                        <span class="header">Bills Presentment and Management</span>
+                        <p class="content">
+                            Misplacing bills won’t be a problem anymore. With different bills needed to be paid, losing them and forgetting their due dates can be a problem. With the fonebayad app, all your bills can be found in one interface. Users will be reminded every time a new bill comes and when they are about to be due.
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <div class="benefits-container" id="bills-payment">
+                    <div class="description-container">
+                        <span class="header">Bills Payment</span>
+                        <p class="content">Budgeting money can be an arduous task for anyone, but with the fonebayad app, you can manage your bills and pay them partially before the bill is due. It acts like a personal assistant for your bills. </p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+            <li>
+                <div class="benefits-container" id="money-transfer">
+                    <div class="description-container">
+                        <span class="header">Money Transfer</span>
+                        <p class="content">With the TransPera feature of the Fonebayad app, you can now send and receive money anytime, anywhere. Transfer money with just a few clicks on your phone! Completely safe and reliable.</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
 </div>
 <div id="screenshots-container" class="slide features-container" data-anchor="screenshots">
     <div class="screenshots">
@@ -87,6 +121,7 @@
 <script>
     $(document).ready(function(){
         $('.ul-container').slider();
+        $('#feats-carousel').slider();
         $('.ul-container').slider('pause');
         $('#ss-prev').on('click',function(){
             $('.ul-container').slider('prev');

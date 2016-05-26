@@ -19,6 +19,12 @@ class AdminController extends BaseController {
         return $this->theme->of('admin.announcements',array('Ann'))->render();
     }
 
+    public function contacts()
+    {
+        $this->theme = Theme::uses('admin')->layout('default');
+        return $this->theme->of('admin.contacts')->render();
+    }
+
     public function create_announcements()
     {
         $attachment = "";
@@ -46,5 +52,16 @@ class AdminController extends BaseController {
         $job->save();
 
         return Redirect::to('careers');
+    }
+
+    public function create_contacts(){
+        $contact = Input::get('id') ? Address::find(Input::get('id')) : new Address();
+
+        $contact->address = Input::get('editor1');
+        $contact->contact = Input::get('contactNumber');
+        $contact->email = Input::get('emailAddress');
+        $contact->save();
+
+        return Redirect::to('contact-us');
     }
 }

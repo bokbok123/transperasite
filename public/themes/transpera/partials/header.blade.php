@@ -1,10 +1,17 @@
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="#feats/benefits">Benefits</a></li>
+    <li class="divider"></li>
+    <li><a href="#feats/screenshots">Screenshots</a></li>
+    <li class="divider"></li>
+    <li><a href="#feats/apple-watch">Apple Watch</a></li>
+</ul>
 <nav>
     <div class="nav-wrapper">
         <a href="#transpera" class="brand-logo"><img src="themes/transpera/assets/img/transperalogo.png"></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down" id="menu">
             <li data-menuanchor="about"><a href="#about">About TransPera</a></li>
-            <li data-menuanchor="feats"><a href="#feats">Features</a></li>
+            <li data-menuanchor="feats"><a href="#!" class="dropdown-button" data-activates="dropdown1">Features<i class="material-icons right">arrow_drop_down</i></a></li>
             <li data-menuanchor="career"><a href="#career">Careers</a></li>
             <li data-menuanchor="partners"><a href="#partners">Partners</a></li>
             <li data-menuanchor="announcements"><a href="#announcements">Announcements</a></li>

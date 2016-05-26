@@ -69,6 +69,7 @@ div#contact div.form-container {
 }
 div#contact div.form-container .input-field {
     margin-top: 0;
+    max-height: 158px;
 }
 div#contact div.form-container .input-field input,
 div#contact div.form-container .input-field textarea {
@@ -82,22 +83,22 @@ div#contact div.form-container .input-field input {
     padding-bottom: 5px;
     padding-top: 20px;
 }
+div#contact div.form-container #textAreaField {
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+}
 div#contact div.form-container .input-field textarea {
-    height: 248px;
-    max-height: 70px;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    min-height: 75px;
     overflow-y: hidden;
     padding-left: 20px;
     position: relative;
     text-indent: 0;
-    width: calc(100% - 20px);
+    width: calc(100% - 22px);
 }
-div#contact div.form-container .input-field textarea:focus,
-div#contact div.form-container .input-field textarea:hover {
-    overflow-y: auto;
-
-}
-div#contact div.form-container .input-field input.error,
-div#contact div.form-container .input-field textarea.error {
+div#contact div.form-container .input-field input.error {
     border: 1px solid #d85e63;
     box-shadow: 0 1px 0 0 #d85e63;
 }
@@ -109,10 +110,11 @@ div#contact div.form-container .input-field label.active{
     top: 30px;
 }
 div#contact div.form-container #btnSubmit {
-    height: 45px;
+    height: 61px;
     line-height: 45px;
     text-transform: none;
-    width: 220px;
+    width: 250px;
+    margin-top: 5px;
 }
 div#registration-error-field{
     background: #fff none repeat scroll 0 0;
@@ -127,6 +129,12 @@ div#registration-error-field{
 div#registration-error-field i#error-icon{
     left: 5px;
     position: absolute;
+}
+div.g-recaptcha{
+    margin-top: 5px;
+    position: absolute;
+    transform: scale(0.8);
+    transform-origin: 0 0 0;
 }
 
 /****footer part ****/

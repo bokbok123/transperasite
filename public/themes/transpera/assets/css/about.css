@@ -5,6 +5,16 @@
 .aboutLayer {
     height: 43%;
 }
+@media only screen and (max-width: 640px) {
+    .aboutLayer {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .imgAboutContainer{
+        display: none;
+    }
+}
 .imgAboutContainer img{
     display: block;
     margin: 0 auto;
@@ -14,10 +24,24 @@
     margin: 0 auto;
     padding-top: 40px;
 }
+@media only screen and (max-width: 640px) {
+    .txtAbout{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 40px 10px 0;
+    }
+}
 .txtAbout p{
     color: #f2f3f3;
     font-size: 17px;
     line-height: 32px;
     text-align: center;
     font-family: "MyriadProRegular";
+}
+@media only screen and (max-width: 640px) {
+    .txtAbout p{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
 }

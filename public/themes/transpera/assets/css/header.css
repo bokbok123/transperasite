@@ -18,8 +18,26 @@ nav div.nav-wrapper {
 nav ul a {
     font-size: 18px;
 }
+nav ul#menu ul#dropdown1 li a {
+    color: #282f39;
+}
+nav ul#menu ul#dropdown1 li a:hover {
+    color: #fff;
+    background: #028b73 none repeat scroll 0 0;
+}
 nav ul#menu a:hover,
 nav ul li.active {
     background: none;
     text-decoration: underline;
+}
+nav ul li ul {
+    top: 85px !important;
+}
+nav ul#menu li a i {
+    line-height: inherit;
+    height: inherit;
+}
+nav .button-collapse {
+    margin-left: 5px;
+    margin-top: 23px;
 }

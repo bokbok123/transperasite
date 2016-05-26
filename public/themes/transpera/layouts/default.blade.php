@@ -15,6 +15,13 @@
         <div class="fonebayad-container" id="fonebayadFullPage">
             {{ Theme::content() }}
         </div>
+
+        <div id="modal1" class="modal" style="width: 470px">
+            <div class="modal-content">
+                <h4>Congratulations!</h4>
+                <p>Your message has been successfully sent.</p>
+            </div>
+        </div>
         <div class="nextPageContainer">
             <a id="nextPage"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
         </div>

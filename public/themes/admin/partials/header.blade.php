@@ -5,10 +5,12 @@
         <ul class="right hide-on-med-and-down">
             <li><a href="announcements">Announcements</a></li>
             <li><a href="careers">Careers</a></li>
+            <li><a href="contact-us">Contacts</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
             <li><a href="announcements">Announcements</a></li>
             <li><a href="careers">Careers</a></li>
+            <li><a href="contact-us">Contacts</a></li>
         </ul>
     </div>
 </nav>

@@ -1,5 +1,23 @@
 
 $(document).ready(function(){
+
+    $('#textAreaField').slimScroll({
+        alwaysVisible:  true,
+        color:          '#028b73',
+        distance:       '5px',
+        height:         '125px',
+        railColor:      '#a2a09f',
+        size:           '3px'
+    });
+
+    $('#textAreaField').on('mouseenter',function(){
+        $.fn.fullpage.setMouseWheelScrolling(false);
+        $.fn.fullpage.setAllowScrolling(false);
+    });
+    $('#textAreaField').on('mouseleave',function(){
+        $.fn.fullpage.setMouseWheelScrolling(true);
+        $.fn.fullpage.setAllowScrolling(true);
+    });
     australiaMap();
 
     $("#frmContact").validate({
@@ -55,7 +73,15 @@ $(document).ready(function(){
         beforeSubmit: function()
         {},
         success: function(response)
-        {},
+        {
+            if(response.result == 0){
+                $('#registration-error-field').show();
+                $('#registration-error-field').html('<i id="error-icon" class="material-icons">error</i>Unable to proceed. Please confirm the reCAPTCHA.');
+            }
+            else {
+                $('#modal1').openModal();
+            }
+        },
         complete: function()
         {},
         error: function()
@@ -86,8 +112,8 @@ $(document).ready(function(){
 
     function australiaMap()
     {
-        $(".contacts").fadeOut();
-        $("#AU-c").fadeIn();
+        $(".contacts").hide();
+        $("#AU-c").show();
         //set latitude and longitude of starting centre point
         var myLat = -33.865143;
         var myLon = 151.209900;
@@ -116,8 +142,8 @@ $(document).ready(function(){
 
     function philippinesMap()
     {
-        $(".contacts").fadeOut();
-        $("#PH-c").fadeIn();
+        $(".contacts").hide();
+        $("#PH-c").show();
         //set latitude and longitude of starting centre point
         var myLat = 14.617290;
         var myLon = 121.059311;
@@ -145,8 +171,8 @@ $(document).ready(function(){
 
     function chicagoMap()
     {
-        $(".contacts").fadeOut();
-        $("#US-c").fadeIn();
+        $(".contacts").hide();
+        $("#US-c").show();
         //set latitude and longitude of starting centre point
         var myLat = 41.881832;
         var myLon = -87.623177;
@@ -171,11 +197,6 @@ $(document).ready(function(){
 //        marker.setMap(map);
     }
 
-    function changeDetail(address,number,email){
-        $('.innerDetail span#address').html(address);
-        $('.innerDetail span#number').html(number);
-        $('.innerDetail span#emailAddress').html(email);
-    }
 });
 
 

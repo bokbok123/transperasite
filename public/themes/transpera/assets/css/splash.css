@@ -7,11 +7,20 @@ div#page1 {
 div.splashContainer {
     margin-left: 120px;
     max-width: 705px;
+    padding: 0;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 640px) {
     div.splashContainer {
         margin-left: 0;
         max-width: 705px;
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    div.splashContainer {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 0 10px;
     }
 }
 div.homepageContent span{
@@ -21,15 +30,44 @@ div.homepageContent span{
 }
 div.homepageContent span.homepageText1{
     font-size: 45px;
+    text-align: left;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 640px) {
+    div.homepageContent span.homepageText1{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 6px;
+    }
 }
 div.homepageContent span.homepageText2{
     font-size: 24px;
+    text-align: left;
+}
+@media only screen and (max-width: 640px) {
+    div.homepageContent span.homepageText2{
+        font-family: MyriadProRegular;
+        font-size: 15px;
+        text-align: justify;
+    }
 }
 div.homepageDownloadContainer {
     margin-top: 75px;
 }
+@media only screen and (max-width: 640px) {
+    div.homepageDownloadContainer {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
 div.homepageDownloadContainer img {
     margin-right: 20px;
+}
+@media only screen and (max-width: 640px) {
+    div.homepageDownloadContainer img {
+        margin: 0 5px;
+        width: 135px;
+    }
 }
 div.nextPageContainer {
     bottom: 0;

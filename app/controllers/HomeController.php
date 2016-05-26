@@ -36,5 +36,45 @@ class HomeController extends BaseController {
             return Redirect::to('dashboard');
             }
     }
+    public function contacts(){
+        if(Input::get('g-recaptcha-response')){
+            $captcha = json_decode($this->getRecaptcha(Input::get('g-recaptcha-response')));
+        } else {
+            return Response::json(['result'=>0]);
+        }
+        return Response::json(['result'=>1]);
+    }
+
+    private function getRecaptcha($response){
+        // Create map with request parameters
+        $params = array(
+            'secret' => '6Ld4lh8TAAAAAOOM1dqiM28Myx5LzLWuFd0qMVwl',
+            'response' => $response
+        );
+
+        // Build Http query using params
+        $query = http_build_query ($params);
+
+        // Create Http context details
+        $options = array(
+            'http' => array(
+                'header' => "Content-Type: application/x-www-form-urlencoded\r\n".
+                    "Content-Length:".strlen($query)."\r\n".
+                    "User-Agent:MyAgent/1.0\r\n",
+                'method'  => "POST",
+                'content' => $query,
+            ),
+        );
+        $context = stream_context_create($options);
+
+        // Read page rendered as result of your POST request
+        $result =  file_get_contents (
+            'https://www.google.com/recaptcha/api/siteverify',  // page url
+            false,
+            $context);
+
+        // Server response is now stored in $result variable so you can process it
+        return $result;
+    }
 
 }

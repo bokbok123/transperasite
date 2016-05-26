@@ -1,4 +1,5 @@
 {{ Theme::asset()->usePath()->add('js-contact', 'js/contact.js') }}
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <div class="contactLayer" id="contact">
     <!---left---->
@@ -39,7 +40,7 @@
                     <i id="error-icon" class="material-icons">error</i>
                     Unable to proceed. Please fix the errors below.
                 </div>
-                    <form id="frmContact">
+                    {{ Form::open(array('url' => 'contact-us', 'id' => 'frmContact')) }}
                         <div class="form-container">
                             <div class="input-field">
                                 <input id="name" class="input-box" type="text" name="name" maxlength="50" aria-required="true">
@@ -53,9 +54,10 @@
                                 <textarea id="textarea1" class="materialize-textarea" name="concern"></textarea>
                                 <label for="textarea1">Concern</label>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="6Ld4lh8TAAAAALioH2L9vwbc4vaZq42TSmUxkerk" style="float: right"></div>
                             <button class="waves-effect waves-light btn" type="submit" id="btnSubmit">Submit</button>
                         </div>
-                    </form>
+                    {{ Form::close() }}
             </div>
             <div class="clear"></div>
         </div>
