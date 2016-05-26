@@ -94,9 +94,10 @@ div#contact div.form-container .input-field textarea {
     min-height: 75px;
     overflow-y: hidden;
     padding-left: 20px;
+    padding-right: 20px;
     position: relative;
     text-indent: 0;
-    width: calc(100% - 22px);
+    width: calc(100% - 42px);
 }
 div#contact div.form-container .input-field input.error,
 div#contact div.form-container #textAreaField.error {
