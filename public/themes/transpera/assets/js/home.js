@@ -41,7 +41,10 @@ $(document).ready(function(){
     });
     window.onhashchange = function(){
         if(location.hash == "#contact-us"){
+            $('div#registration-error-field').hide();
             $('.nextPageContainer').fadeOut();
+            var validator = $("#frmContact").validate();
+            validator.resetForm();
         } else {
             $('.nextPageContainer').fadeIn();
         }
