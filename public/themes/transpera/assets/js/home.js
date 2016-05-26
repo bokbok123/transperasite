@@ -5,7 +5,7 @@ $(document).ready(function(){
     $(".button-collapse").sideNav();
     $('#fonebayadFullPage').fullpage({
         menu: '#menu',
-        anchors: ['transpera','about','feats','career','partners','announcements','contact-us'],
+        anchors: ['transpera','about','feats','career','announcements','contact-us'],
         controlArrows: false
     });
     $('.job-description-container').slimScroll({

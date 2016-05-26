@@ -22,9 +22,6 @@ $(document).ready(function(){
 
     $("#frmContact").validate({
         rules: {
-            name: {
-                required: true
-            },
             email: {
                 required: true,
                 email: true
@@ -33,9 +30,6 @@ $(document).ready(function(){
                 required: true
             }
         },messages: {
-            name: {
-                required: ""
-            },
             email: {
                 required: "",
                 email: "xxx"
@@ -45,6 +39,10 @@ $(document).ready(function(){
             }
         },
         errorPlacement: function(error, element) {
+            console.log(element.attr('id'));
+            if(element.attr('id') == "textarea1"){
+                $(element).parent().addClass('error');
+            }
             if(error.html() == "xxx"){
                 var message = 'Unable to proceed. Email should be in correct format.';
                 message = '<i class="material-icons" id="error-icon">error</i>' + message;
@@ -112,7 +110,7 @@ $(document).ready(function(){
 
     $(".noSpecialCharacter").keypress(function(e){
         e = e || event;
-        return /^[0-9,.' a-z-]+$/i.test(String.fromCharCode(e.charCode || e.keyCode))
+        return /^[.' a-z-ñÑ]+$/i.test(String.fromCharCode(e.charCode || e.keyCode))
             || !!(!e.charCode && ~[8,9,37,39,46].indexOf(e.keyCode));
     });
 

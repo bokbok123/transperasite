@@ -98,7 +98,8 @@ div#contact div.form-container .input-field textarea {
     text-indent: 0;
     width: calc(100% - 22px);
 }
-div#contact div.form-container .input-field input.error {
+div#contact div.form-container .input-field input.error,
+div#contact div.form-container #textAreaField.error {
     border: 1px solid #d85e63;
     box-shadow: 0 1px 0 0 #d85e63;
 }

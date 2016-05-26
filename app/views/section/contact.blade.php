@@ -26,10 +26,6 @@
                          </span>
                      </div>
                     <div class="innerDetail">
-                     <img src="<?php echo Theme::asset()->url('img/contactShape3.png'); ?>">
-                         <span id="emailAddress">
-                            {{ $data->email }}
-                         </span>
                     </div>
                 </div>
                 @endforeach
@@ -47,11 +43,11 @@
                                 <label class="" for="name">Name</label>
                             </div>
                             <div class="input-field">
-                                <input id="email" class="input-box" type="text" name="email" maxlength="50" aria-required="true">
+                                <input id="email" class="input-box" type="text" name="email" maxlength="100" aria-required="true">
                                 <label class="" for="email">Email</label>
                             </div>
                             <div class="input-field" id="textAreaField">
-                                <textarea id="textarea1" class="materialize-textarea" name="concern"></textarea>
+                                <textarea id="textarea1" class="materialize-textarea" name="concern" maxlength="500"></textarea>
                                 <label for="textarea1">Concern</label>
                             </div>
                             <div class="g-recaptcha" data-sitekey="6Ld4lh8TAAAAALioH2L9vwbc4vaZq42TSmUxkerk" style="float: right"></div>

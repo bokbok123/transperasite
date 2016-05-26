@@ -13,7 +13,7 @@
             <li data-menuanchor="about"><a href="#about">About TransPera</a></li>
             <li data-menuanchor="feats"><a href="#!" class="dropdown-button" data-activates="dropdown1">Features<i class="material-icons right">arrow_drop_down</i></a></li>
             <li data-menuanchor="career"><a href="#career">Careers</a></li>
-            <li data-menuanchor="partners"><a href="#partners">Partners</a></li>
+            <!--<li data-menuanchor="partners"><a href="#partners">Partners</a></li>-->
             <li data-menuanchor="announcements"><a href="#announcements">Announcements</a></li>
             <li data-menuanchor="contact-us"><a href="#contact-us">Contact Us</a></li>
             <li><a href="https://www.facebook.com/FonebayadPH" target="_blank" style="padding-right: 0;"><img src="{{ Theme::asset()->url('img/icons/facebook.png')}}"></a></li>
@@ -24,7 +24,7 @@
             <li><a href="#about">About TransPera</a></li>
             <li><a href="#feats">Features</a></li>
             <li><a href="#career">Careers</a></li>
-            <li><a href="#partners">Partners</a></li>
+           <!-- <li><a href="#partners">Partners</a></li>-->
             <li><a href="#announcements">Announcements</a></li>
             <li><a href="#contact-us">Contact Us</a></li>
         </ul>
