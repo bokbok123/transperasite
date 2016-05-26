@@ -82,6 +82,20 @@ div#contact div.form-container .input-field input {
     padding-bottom: 5px;
     padding-top: 20px;
 }
+div#contact div.form-container .input-field textarea {
+    height: 248px;
+    max-height: 70px;
+    overflow-y: hidden;
+    padding-left: 20px;
+    position: relative;
+    text-indent: 0;
+    width: calc(100% - 20px);
+}
+div#contact div.form-container .input-field textarea:focus,
+div#contact div.form-container .input-field textarea:hover {
+    overflow-y: auto;
+
+}
 div#contact div.form-container .input-field input.error,
 div#contact div.form-container .input-field textarea.error {
     border: 1px solid #d85e63;

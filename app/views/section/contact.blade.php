@@ -10,28 +10,28 @@
         <!--lower contact wrapper-->
         <div class="lowerInnerContactLeftWrap">
             <div class="innerLeftTxtConWrap">
-                 <div class="innerDetail">
-                      <img src="<?php echo Theme::asset()->url('img/contactShape1png.png'); ?>">
-                     <span>
-                         Suite 5 Level 12 <br>
-                         53 Martin Place Sydney <br>
-                         NSW 2000 <br>
-                     </span>
-                 </div>
-
-                 <div class="innerDetail">
-                     <img src="<?php echo Theme::asset()->url('img/contactShape2.png'); ?>">
-                     <span>
-                        +63 2 621 9370
-                     </span>
-                 </div>
-
-                 <div class="innerDetail">
-                     <img src="<?php echo Theme::asset()->url('img/contactShape3.png'); ?>">
-                         <span>
-                            info@transpera.com.ph
+                @foreach(Address::all() as $data)
+                <div class="contacts" id="{{ $data->country_code }}-c">
+                    <div class="innerDetail">
+                          <img src="<?php echo Theme::asset()->url('img/contactShape1png.png'); ?>">
+                         <span id="address">
+                             {{ $data->address }}
                          </span>
-                 </div>
+                     </div>
+                    <div class="innerDetail">
+                         <img src="<?php echo Theme::asset()->url('img/contactShape2.png'); ?>">
+                         <span id="number">
+                            {{ $data->contact }}
+                         </span>
+                     </div>
+                    <div class="innerDetail">
+                     <img src="<?php echo Theme::asset()->url('img/contactShape3.png'); ?>">
+                         <span id="emailAddress">
+                            {{ $data->email }}
+                         </span>
+                    </div>
+                </div>
+                @endforeach
              </div>
             <div class="innerRightTxtConWrap">
                 <p>You might have other concerns:</p>
@@ -49,7 +49,7 @@
                                 <input id="email" class="input-box" type="text" name="email" maxlength="50" aria-required="true">
                                 <label class="" for="email">Email</label>
                             </div>
-                            <div class="input-field">
+                            <div class="input-field" id="textAreaField">
                                 <textarea id="textarea1" class="materialize-textarea" name="concern"></textarea>
                                 <label for="textarea1">Concern</label>
                             </div>
@@ -80,68 +80,3 @@
     </div>
 
 </div>
-
-<script>
-    $(document).ready(function(){
-        $("#frmContact").validate({
-            rules: {
-                name: {
-                    required: true
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                concern: {
-                    required: true
-                }
-            },messages: {
-                name: {
-                    required: ""
-                },
-                email: {
-                    required: "",
-                    email: "xxx"
-                },
-                concern: {
-                    required: ""
-                }
-            },
-            errorPlacement: function(error, element) {
-                if(error.html() == "xxx"){
-                    var message = 'Unable to proceed. Email should be in correct format.';
-                    message = '<i class="material-icons" id="error-icon">error</i>' + message;
-                    $("#registration-error-field").html(message);
-                    $("div#registration-error-field").show();
-                }
-            },
-            invalidHandler: function(event, validator) {
-                // 'this' refers to the form
-                var errors = validator.numberOfInvalids();
-                if (errors) {
-                    var message = errors == 1
-                        ? 'Unable to proceed. Fill up the required field.'
-                        : 'Unable to proceed. Fill up the required fields.';
-                    message = '<i class="material-icons" id="error-icon">error</i>' + message;
-                    $("#registration-error-field").html(message);
-                    $("div#registration-error-field").show();
-                } else {
-                    $("div#registration-error-field").hide();
-                }
-            }
-        });
-
-        /*AJAX FORM SUBMIT*/
-        var options = {
-            beforeSubmit: function()
-            {},
-            success: function(response)
-            {},
-            complete: function()
-            {},
-            error: function()
-            {}
-        };
-        $("#frmContact").ajaxForm(options);
-    });
-</script>
