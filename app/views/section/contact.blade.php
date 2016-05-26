@@ -43,7 +43,7 @@
                     {{ Form::open(array('url' => 'contact-us', 'id' => 'frmContact')) }}
                         <div class="form-container">
                             <div class="input-field">
-                                <input id="name" class="input-box" type="text" name="name" maxlength="50" aria-required="true">
+                                <input id="name" class="input-box noSpecialCharacter" type="text" name="name" maxlength="100" aria-required="true">
                                 <label class="" for="name">Name</label>
                             </div>
                             <div class="input-field">

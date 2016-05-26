@@ -110,6 +110,12 @@ $(document).ready(function(){
         chicagoMap();
     });
 
+    $(".noSpecialCharacter").keypress(function(e){
+        e = e || event;
+        return /^[0-9,.' a-z-]+$/i.test(String.fromCharCode(e.charCode || e.keyCode))
+            || !!(!e.charCode && ~[8,9,37,39,46].indexOf(e.keyCode));
+    });
+
     function australiaMap()
     {
         $(".contacts").hide();
