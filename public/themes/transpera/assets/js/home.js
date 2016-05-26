@@ -2,6 +2,7 @@
  * Created by jermaine.galman on 5/18/16.
  */
 $(document).ready(function(){
+    window.location.href = "#transpera";
     $(".button-collapse").sideNav();
     $('#fonebayadFullPage').fullpage({
         menu: '#menu',

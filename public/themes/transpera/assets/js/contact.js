@@ -18,7 +18,7 @@ $(document).ready(function(){
         $.fn.fullpage.setMouseWheelScrolling(true);
         $.fn.fullpage.setAllowScrolling(true);
     });
-    australiaMap();
+    philippinesMap();
 
     $("#frmContact").validate({
         rules: {

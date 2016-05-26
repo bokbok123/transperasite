@@ -72,8 +72,8 @@
     </div>
 
     <div class="contactMapNav">
-        <a class="waves-effect waves-light phDivContact country-button">Philippines</a>
-        <a class="waves-effect waves-light auDivContact country-button active">Australia</a>
+        <a class="waves-effect waves-light auDivContact country-button">Australia</a>
+        <a class="waves-effect waves-light phDivContact country-button active">Philippines</a>
         <a class="waves-effect waves-light chiDivContact country-button">Chicago</a>
     </div>
 
