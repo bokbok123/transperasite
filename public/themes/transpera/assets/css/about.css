@@ -47,6 +47,8 @@
 }
 div.ourPartnersContainer {
     background: rgba(255, 255, 255, 0.15) none repeat scroll 0 0;
+    bottom: 85px;
+    position: absolute;
     width: 100%;
 }
 div.ourPartnersContainer span{
