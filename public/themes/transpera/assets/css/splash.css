@@ -2,16 +2,25 @@ div#fonebayadFullPage .section{
     padding: 0;
 }
 div#page1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/splash.png') no-repeat fixed center center / 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/splash.png') no-repeat fixed center center / cover;
 }
 div.splashContainer {
     margin-left: 120px;
     max-width: 705px;
+    padding: 0;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 640px) {
     div.splashContainer {
         margin-left: 0;
         max-width: 705px;
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    div.splashContainer {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 0 10px;
     }
 }
 div.homepageContent span{
@@ -21,13 +30,61 @@ div.homepageContent span{
 }
 div.homepageContent span.homepageText1{
     font-size: 45px;
+    text-align: left;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 640px) {
+    div.homepageContent span.homepageText1{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 6px;
+    }
 }
 div.homepageContent span.homepageText2{
     font-size: 24px;
+    text-align: left;
+}
+@media only screen and (max-width: 640px) {
+    div.homepageContent span.homepageText2{
+        font-family: MyriadProRegular;
+        font-size: 15px;
+        text-align: justify;
+    }
 }
 div.homepageDownloadContainer {
     margin-top: 75px;
 }
+@media only screen and (max-width: 640px) {
+    div.homepageDownloadContainer {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
 div.homepageDownloadContainer img {
     margin-right: 20px;
+}
+@media only screen and (max-width: 640px) {
+    div.homepageDownloadContainer img {
+        margin: 0 5px;
+        width: 135px;
+    }
+}
+div.nextPageContainer {
+    bottom: 0;
+    left: 0;
+    margin-bottom: 25px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    z-index: 100;
+}
+@media only screen and (max-width: 480px) {
+    div.nextPageContainer {
+        display: block;
+        margin-bottom: 10px;
+        transform: scale(0.6);
+    }
+}
+div.nextPageContainer img {
+    cursor: pointer;
 }

@@ -4,7 +4,6 @@ div#screenshots-container {
 }
 div#screenshots-container .screenshots{
     margin-top: 100px;
-    padding-right: 100px;
 }
 div#screenshots-container .screenshots .carousel-button{
     align-items: center;

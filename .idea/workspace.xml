@@ -17,63 +17,62 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="materialize.css" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/materialize.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="2873" column="21" selection-start="46195" selection-end="46213" vertical-scroll-proportion="0.62252665" vertical-offset="48432" max-vertical-offset="193137">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="transperasite" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/js/home.js">
+      <file leaf-file-name="careers.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/careers.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maine.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/maine.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="9" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="238">
+            <state line="23" column="7" selection-start="979" selection-end="979" vertical-scroll-proportion="0.23754153" vertical-offset="248" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/section/about.blade.php">
+      <file leaf-file-name="splash.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/section/splash.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="24" selection-start="170" selection-end="178" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
+            <state line="11" column="15" selection-start="513" selection-end="661" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/about.css">
+      <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="203" selection-end="203" vertical-scroll-proportion="0.22880216" vertical-offset="0" max-vertical-offset="743">
+            <state line="22" column="5" selection-start="674" selection-end="674" vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splash.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/splash.css">
+      <file leaf-file-name="careers.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/section/careers.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/transpera/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="58" selection-start="2424" selection-end="2424" vertical-scroll-proportion="-13.076923" vertical-offset="765" max-vertical-offset="1785">
+            <state line="18" column="10" selection-start="722" selection-end="722" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -96,21 +95,58 @@
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/jquery.fullPage.css" />
         <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/icon.css" />
-        <option value="$PROJECT_DIR$/public/themes/transpera/assets/js/home.js" />
-        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/splash.css" />
-        <option value="$PROJECT_DIR$/app/views/maine.blade.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/materialize.css" />
+        <option value="$PROJECT_DIR$/app/models/Screenshot.php" />
         <option value="$PROJECT_DIR$/public/themes/transpera/config.php" />
+        <option value="$PROJECT_DIR$/public/fileman/conf.json" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/partners.css" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/partials/features-nav.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/admin/config.php" />
+        <option value="$PROJECT_DIR$/app/views/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/admin/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/admin/assets/css/adminLogin.css" />
+        <option value="$PROJECT_DIR$/public/themes/admin/assets/css/global.css" />
+        <option value="$PROJECT_DIR$/app/models/Announcement.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/announcements.blade.php" />
         <option value="$PROJECT_DIR$/app/views/section/about.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/section/announcements.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/section/partners.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/admin/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/app/models/Address.php" />
+        <option value="$PROJECT_DIR$/public/themes/admin/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/about.css" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/header.css" />
+        <option value="$PROJECT_DIR$/app/views/admin/contacts.blade.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/screenshots.css" />
+        <option value="$PROJECT_DIR$/app/views/maine.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/contact.css" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/announcements.css" />
+        <option value="$PROJECT_DIR$/app/views/section/contact.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/js/contact.js" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/splash.css" />
+        <option value="$PROJECT_DIR$/app/views/section/features.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/js/home.js" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/features.css" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/public/themes/transpera/assets/css/career.css" />
+        <option value="$PROJECT_DIR$/app/controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/app/views/section/splash.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/section/careers.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/careers.blade.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1608" />
-    <option name="y" value="-140" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -152,7 +188,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -162,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -176,29 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transpera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -213,14 +227,6 @@
               <option name="myItemId" value="transpera" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -228,7 +234,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -244,7 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -270,11 +276,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,7 +286,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="transperasite_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="transperasite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -298,7 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -316,7 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="transperasite" />
+              <option name="myItemId" value="transperasite_v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -328,7 +348,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="section" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transperasite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transperasite_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,14 +381,20 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistory" value="sp&#10;config.php&#10;spl&#10;about.b&#10;a" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fonebayad-web" />
+    <property name="SearchEverywhereHistory" value="career&#10;feat&#10;splas&#10;spla&#10;home&#10;mater&#10;header&#10;contac&#10;anno&#10;head&#10;conta&#10;scre&#10;def&#10;route&#10;home.&#10;con&#10;heade&#10;fea&#10;about&#10;spl&#10;caree&#10;conve&#10;splash&#10;announ&#10;announce&#10;sidena&#10;.js&#10;partne&#10;a&#10;materi&#10;splash.c&#10;header.c&#10;ca&#10;hom&#10;44&#10;sp&#10;config.php&#10;about.b" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\transperasite\public\themes\transpera\assets\js" />
-      <recent name="C:\xampp\htdocs\transperasite\public\themes\transpera\assets" />
-      <recent name="C:\xampp\htdocs\transperasite\public\themes\transpera\assets\css" />
+      <recent name="C:\xampp\htdocs\transperasite_v2\public\themes\transpera\assets\img" />
+      <recent name="C:\xampp\htdocs\transperasite_v2\public\themes\admin\layouts" />
+      <recent name="C:\xampp\htdocs\transperasite_v2\public\themes\admin\assets\img" />
+      <recent name="C:\xampp\htdocs\transperasite_v2\public" />
+      <recent name="C:\xampp\htdocs\transperasite_v2\public\themes\transpera\assets\font\raleway" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\transperasite_v2\public\themes\transpera\assets\img\icons" />
+      <recent name="C:\xampp\htdocs\transperasite_v2\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -379,15 +423,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1608" y="-140" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.004531722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.213125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -395,12 +440,31 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.004531722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2613293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -416,108 +480,327 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/js/jquery.easings.min.js">
+    <entry file="file://$PROJECT_DIR$/app/views/section/features.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+        <state line="81" column="72" selection-start="4996" selection-end="5001" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2380">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="170">
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="246" selection-end="246" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="731" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="23" selection-start="5266" selection-end="5266" vertical-scroll-proportion="0.50830567" vertical-offset="2244" max-vertical-offset="3417" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/icon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/js/jquery.easings.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7493" column="5" selection-start="117300" selection-end="117305" vertical-scroll-proportion="0.33238637" vertical-offset="127147" max-vertical-offset="192831">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/section/splash.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="9" selection-end="9" vertical-scroll-proportion="0.023709903" vertical-offset="0" max-vertical-offset="717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/maine.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="62" selection-end="62" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/img/secondBG.png">
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/img/partners.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/config.php">
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/img/features.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Job.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="58" selection-start="2424" selection-end="2424" vertical-scroll-proportion="-13.076923" vertical-offset="765" max-vertical-offset="1785">
+        <state line="18" column="7" selection-start="0" selection-end="533" vertical-scroll-proportion="0.42358804" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Screenshot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="178" selection-end="188" vertical-scroll-proportion="0.20481928" vertical-offset="0" max-vertical-offset="581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/local/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fileman/js/file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="22" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fileman/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="297" selection-end="297" vertical-scroll-proportion="0.2886248" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/partners.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="1" selection-start="633" selection-end="633" vertical-scroll-proportion="0.6767516" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/admin/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="46" selection-start="2005" selection-end="2011" vertical-scroll-proportion="-4.6923075" vertical-offset="847" max-vertical-offset="1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/admin/assets/css/adminLogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/splash.css">
+    <entry file="file://$PROJECT_DIR$/public/themes/admin/assets/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+        <state line="27" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/section/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="170" selection-end="178" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="374">
+        <state line="15" column="0" selection-start="749" selection-end="749" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/section/announcements.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="855" selection-end="855" vertical-scroll-proportion="-4.6923075" vertical-offset="320" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/section/partners.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="-9.5" vertical-offset="93" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/admin/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="34" selection-start="468" selection-end="468" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="4491" selection-end="4491" vertical-scroll-proportion="-17.76923" vertical-offset="1306" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/applications.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="21" selection-start="6024" selection-end="6024" vertical-scroll-proportion="0.33171913" vertical-offset="4300" max-vertical-offset="6290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/doc/filters/convert_encoding.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Jermaine Galman/Learnings/usefulfunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="39" selection-start="616" selection-end="1298" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="4046" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="628" selection-end="628" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/admin/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="694" selection-end="694" vertical-scroll-proportion="0.33887044" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Announcement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="0" selection-end="551" vertical-scroll-proportion="0.61445785" vertical-offset="0" max-vertical-offset="581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="422" selection-end="422" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/about.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="203" selection-end="203" vertical-scroll-proportion="0.22880216" vertical-offset="0" max-vertical-offset="743">
+        <state line="6" column="1" selection-start="138" selection-end="138" vertical-scroll-proportion="0.13375796" vertical-offset="18" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="403" selection-end="403" vertical-scroll-proportion="0.6997579" vertical-offset="51" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="50" selection-start="575" selection-end="583" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/screenshots.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="276" selection-end="276" vertical-scroll-proportion="0.106687896" vertical-offset="69" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/maine.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="408">
+          <folding>
+            <marker date="1464251443907" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1464251443907" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1464251443907" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1464251443907" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1464251443907" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1464251443907" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="24" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.0" vertical-offset="1383" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/announcements.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="22" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0" vertical-offset="274" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/section/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="77" selection-start="3597" selection-end="3597" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2873" column="21" selection-start="46195" selection-end="46213" vertical-scroll-proportion="0.62252665" vertical-offset="48432" max-vertical-offset="193137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/splash.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1062" selection-end="1103" vertical-scroll-proportion="0.3089431" vertical-offset="592" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/features.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="378" selection-end="378" vertical-scroll-proportion="0.27070063" vertical-offset="0" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="556" selection-end="582" vertical-scroll-proportion="0.31748727" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="7" selection-start="742" selection-end="1061" vertical-scroll-proportion="0.6496815" vertical-offset="102" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="824" selection-end="824" vertical-scroll-proportion="0.5415282" vertical-offset="14" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/transpera/assets/css/career.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="560" selection-end="560" vertical-scroll-proportion="0.08130081" vertical-offset="290" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/contacts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="53" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.5772496" vertical-offset="816" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="923" selection-end="923" vertical-scroll-proportion="-6.1538463" vertical-offset="401" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/announcements.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="13" selection-start="1838" selection-end="2108" vertical-scroll-proportion="0.582343" vertical-offset="609" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/section/splash.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="15" selection-start="513" selection-end="661" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/section/features.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="6" selection-start="7014" selection-end="7014" vertical-scroll-proportion="0.86926997" vertical-offset="1511" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="674" selection-end="674" vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/section/careers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="722" selection-end="722" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/careers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="7" selection-start="979" selection-end="979" vertical-scroll-proportion="0.23754153" vertical-offset="248" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>

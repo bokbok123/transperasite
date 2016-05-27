@@ -2,13 +2,33 @@ div#page4 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/careers.png') no-repeat center center / cover;
     padding-top: 50px;
 }
+div#careers-header {
+    color: #fff;
+    margin: 0 auto;
+    width: 90%;
+}
+div#careers-header h1 {
+    font-family: ralewaylight;
+    font-size: 35px;
+    margin: 0 auto 10px;
+}
 div.careers-container{
     background: transparent none repeat scroll 0 0;
     border: 8px solid #393c3f;
     border-radius: 10px;
-    height: 500px;
+    height: 450px;
     margin: 0 auto;
-    width: 1180px;
+    width: 90%;
+}
+div.careers-container.hide-on-large-only{
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    height: inherit;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
 }
 div.careers-container div.job-title{
     float: left;
@@ -16,15 +36,43 @@ div.careers-container div.job-title{
     width: 30%;
     overflow-y: auto;
 }
+div.careers-container.hide-on-large-only div.job-title{
+    float: none;
+    font-size: 16px;
+    height: auto;
+    overflow-y: auto;
+    padding: 3px 10px;
+    width: auto;
+}
+div.careers-container.hide-on-large-only div.job-description{
+    border-bottom: 1px solid #d1d1d1;
+    float: none;
+    height: auto;
+    max-height: 100px;
+    overflow: hidden;
+    padding: 0 10px 25px;
+    position: relative;
+    width: auto;
+}
+div.careers-container.hide-on-large-only div.job-description span.readmore{
+    bottom: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+div.careers-container.hide-on-large-only div.job-description p{
+    margin-top: 0;
+}
 div.careers-container div.job-title .tabs{
     background: transparent none repeat scroll 0 0;
     color: #535963;
     display: table-cell;
-    padding: 40px 50px 15px 15px;
+    padding: 25px 50px 15px 15px;
 }
 div.careers-container div.job-title .tabs a{
     color: #535963;
     font-family: MyriadProRegular;
+    text-transform: none;
 }
 div.careers-container div.job-title .tabs .tab.active a,
 div.careers-container div.job-title .tabs a:hover{
@@ -48,13 +96,15 @@ div.careers-container div.job-description{
     color: #fff;
     float: left;
     height: 100%;
-    padding: 35px;
+    padding: 10px 35px 35px;
     width: 70%;
 }
 div.careers-container div.job-description div.parent-container{
     height: calc(100% - 45px);
+    padding-bottom: 10px;
 }
 div.careers-container div.job-description div.job-description-container{
+    color: #aebdcd;
     font-family: MyriadProRegular;
     font-size: 14px;
     height: calc(100% - 45px);
@@ -68,5 +118,28 @@ div.careers-container div.job-description div.button-container #btnApply{
     background: #028b73;
     height: 46px;
     line-height: 46px;
+    text-transform: none;
     width: 220px;
+}
+
+#careers-modal {
+    font-size: 12px;
+    max-height: 85%;
+    width: 95%;
+}
+#careers-modal .modal-content{
+    padding: 10px;
+}
+#careers-modal .modal-header{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px 0;
+}
+#careers-modal .modal-close{
+    font-size: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 12px;
+    position: fixed;
+    right: 0;
 }

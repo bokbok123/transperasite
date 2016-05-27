@@ -27,7 +27,7 @@
 }
 .innerDetail {
     color: #a3a3a3;
-    font-family: ralewaylight;
+    font-family: RalewayLight;
     margin-bottom: 10px;
     padding-left: 25px;
     position: relative;
@@ -69,6 +69,7 @@ div#contact div.form-container {
 }
 div#contact div.form-container .input-field {
     margin-top: 0;
+    max-height: 158px;
 }
 div#contact div.form-container .input-field input,
 div#contact div.form-container .input-field textarea {
@@ -82,6 +83,27 @@ div#contact div.form-container .input-field input {
     padding-bottom: 5px;
     padding-top: 20px;
 }
+div#contact div.form-container #textAreaField {
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+}
+div#contact div.form-container .input-field textarea {
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    min-height: 75px;
+    overflow-y: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-indent: 0;
+    width: calc(100% - 42px);
+}
+div#contact div.form-container .input-field input.error,
+div#contact div.form-container #textAreaField.error {
+    border: 1px solid #d85e63;
+    box-shadow: 0 1px 0 0 #d85e63;
+}
 div#contact div.form-container .input-field label {
     left: 20px;
     top: 1.2rem;
@@ -90,10 +112,33 @@ div#contact div.form-container .input-field label.active{
     top: 30px;
 }
 div#contact div.form-container #btnSubmit {
-    height: 45px;
+    height: 61px;
     line-height: 45px;
-    width: 220px;
+    text-transform: none;
+    width: 250px;
+    margin-top: 5px;
 }
+div#registration-error-field{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #d85e63;
+    display: block;
+    margin: 5px 0;
+    padding: 7px 5px 7px 35px;
+    position: relative;
+    text-align: left;
+}
+div#registration-error-field i#error-icon{
+    left: 5px;
+    position: absolute;
+}
+div.g-recaptcha{
+    margin-top: 5px;
+    position: absolute;
+    transform: scale(0.8);
+    transform-origin: 0 0 0;
+}
+
 /****footer part ****/
 .contactMapNav {
     bottom: 0;
@@ -106,7 +151,7 @@ div#contact div.contactMapNav a.country-button {
     background: #222831 none repeat scroll 0 0;
     color: #9d9d9e;
     float: left;
-    font-family: ralewaylight;
+    font-family: RalewayLight;
     font-size: 30px;
     line-height: 75px;
     text-align: center;

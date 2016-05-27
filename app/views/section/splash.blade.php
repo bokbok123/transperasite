@@ -7,10 +7,10 @@
         </span>
     </div>
     <div class="homepageDownloadContainer">
-        <a class="downlink" href="#">
-            <img class="downloadIcon" src="{{ Theme::asset()->url('img/appleStore.png'); }}"/>
-        </a>
-        <a class="downlink" href="#">
+        <!--<a class="downlink" href="#">
+            <img class="downloadIcon" src="{{-- Theme::asset()->url('img/appleStore.png'); --}}"/>
+        </a>-->
+        <a class="downlink" href="https://play.google.com/store/apps/details?id=estansaas.fonebayad" target="_blank">
             <img class="downloadIcon" src="{{ Theme::asset()->url('img/playStore.png'); }}"/>
         </a>
     </div>

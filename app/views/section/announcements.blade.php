@@ -7,10 +7,13 @@
     </div>
     <div class="slider each-ann">
         <ul class="slides">
-            @foreach(Announcement::all() as $ann)
+            @foreach(Announcement::where('ann_status','=','1')->get() as $ann)
             <li>
-                <div class="each-img">
-                    {{ $ann->ann_body }}
+                <div class="each">
+                    <div class="each-content">
+                        {{ $ann->ann_body }}
+                    </div>
+                    <div class="clear"></div>
                 </div>
             </li>
             @endforeach
