@@ -17,6 +17,11 @@
             {{ Theme::content() }}
         </div>
 
+        <div id="careers-modal" class="modal">
+            <a class=" modal-action modal-close waves-effect waves-green btn-flat">&times</a>
+            <div class="modal-header"> </div>
+            <div class="modal-content"> </div>
+        </div>
         <div id="modal1" class="modal" style="width: 470px">
             <div class="modal-content">
                 <h4>Congratulations!</h4>

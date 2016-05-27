@@ -2,6 +2,15 @@ div#features-container {
     background: url('../img/features.png') no-repeat center center / 100% 100%;
     height: 100%;
 }
+@media only screen and (max-width: 640px) {
+    div#features-container {
+        background: rgba(0, 0, 0, 0) url("../img/features.png") no-repeat scroll right center / cover ;
+        height: 100%;
+    }
+    div.fp-controlArrow {
+        display: none;
+    }
+}
 div.features-container div.benefits-container .image-container{
     float: left;
     width: 20%;

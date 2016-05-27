@@ -78,6 +78,13 @@ div.nextPageContainer {
     text-align: center;
     z-index: 100;
 }
+@media only screen and (max-width: 480px) {
+    div.nextPageContainer {
+        display: block;
+        margin-bottom: 10px;
+        transform: scale(0.6);
+    }
+}
 div.nextPageContainer img {
     cursor: pointer;
 }

@@ -2,12 +2,12 @@
  * Created by jermaine.galman on 5/18/16.
  */
 $(document).ready(function(){
-    window.location.href = "#transpera";
+    /*window.location.href = "#transpera";*/
     $(".button-collapse").sideNav();
     $('#fonebayadFullPage').fullpage({
         menu: '#menu',
         anchors: ['transpera','about','feats','career','announcements','contact-us'],
-        controlArrows: false
+        controlArrows: true
     });
     $('.job-description-container').slimScroll({
         alwaysVisible:  true,

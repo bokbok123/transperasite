@@ -121,7 +121,6 @@
 <script>
     $(document).ready(function(){
         $('.ul-container').slider();
-        $('#feats-carousel').slider();
         $('.ul-container').slider('pause');
         $('#ss-prev').on('click',function(){
             $('.ul-container').slider('prev');
@@ -131,5 +130,7 @@
             $('.ul-container').slider('next');
             $('.ul-container').slider('pause');
         });
+        $('#feats-carousel').slider();
+        $('#feats-carousel').slider('pause');
     });
 </script>
