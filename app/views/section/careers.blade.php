@@ -1,3 +1,6 @@
+<div class="header" id="careers-header">
+    <h1>Careers</h1>
+</div>
 <div class="careers-container hide-on-med-and-down">
     <div class="job-title">
         <?php $jobs = Job::all() ?>

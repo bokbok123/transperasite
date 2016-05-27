@@ -7,7 +7,9 @@ div.announcements-container {
 div.announcements-container div.header{
     color: #ffffff;
     font-family: RalewayLight;
-    text-align: center;
+    margin: 0 auto;
+    text-align: left;
+    width: 90%;
 }
 div.announcements-container div.header h1{
     font-size: 35px;

@@ -2,13 +2,23 @@ div#page4 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/careers.png') no-repeat center center / cover;
     padding-top: 50px;
 }
+div#careers-header {
+    color: #fff;
+    margin: 0 auto;
+    width: 90%;
+}
+div#careers-header h1 {
+    font-family: ralewaylight;
+    font-size: 35px;
+    margin: 0 auto 10px;
+}
 div.careers-container{
     background: transparent none repeat scroll 0 0;
     border: 8px solid #393c3f;
     border-radius: 10px;
     height: 450px;
     margin: 0 auto;
-    width: 1180px;
+    width: 90%;
 }
 div.careers-container.hide-on-large-only{
     border: 0 none;
@@ -57,7 +67,7 @@ div.careers-container div.job-title .tabs{
     background: transparent none repeat scroll 0 0;
     color: #535963;
     display: table-cell;
-    padding: 40px 50px 15px 15px;
+    padding: 25px 50px 15px 15px;
 }
 div.careers-container div.job-title .tabs a{
     color: #535963;
@@ -86,7 +96,7 @@ div.careers-container div.job-description{
     color: #fff;
     float: left;
     height: 100%;
-    padding: 35px;
+    padding: 10px 35px 35px;
     width: 70%;
 }
 div.careers-container div.job-description div.parent-container{
