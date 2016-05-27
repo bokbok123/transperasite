@@ -1,4 +1,4 @@
-<div class="careers-container right hide-on-med-and-down">
+<div class="careers-container hide-on-med-and-down">
     <div class="job-title">
         <?php $jobs = Job::all() ?>
         <ul class="tabs">

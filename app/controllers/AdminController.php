@@ -10,7 +10,7 @@ class AdminController extends BaseController {
     public function careers()
     {
         $this->theme = Theme::uses('admin')->layout('default');
-        return $this->theme->of('admin.careers',array('Job'=>Job::paginate(5)))->render();
+        return $this->theme->of('admin.careers',array('Job'=>Job::where('job_status','=','1')->paginate(5)))->render();
     }
 
     public function announcements()

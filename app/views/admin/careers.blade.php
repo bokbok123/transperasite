@@ -27,15 +27,24 @@
 <table border="1" id="myTable">
     <thead>
         <tr>
-            <th>Job Title</th>
-            <th>Job Description</th>
-            <th></th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Action</th>
         </tr>
     </thead>
     @foreach($Job as $job)
     <tr>
         <td id="title{{ $job->id }}" class="title">{{ $job->job_title }}</td>
-        <td id="desc{{ $job->id }}" class="desc">    {{ $job->job_desc }}</td>
+        <td id="desc{{ $job->id }}" class="desc">{{ $job->job_desc }}</td>
+        <td class="status">
+            <div class="switch">
+                <label>
+                    <input type="checkbox" value="{{ $job->ann_status }}" id="{{ $job->id }}">
+                    <span class="lever"></span>
+                </label>
+            </div>
+        </td>
         <td>    <button data-target="modal1" id="{{ $job->id }}" onclick="openModalNow(this)" >Edit</button> </td>
     </tr>
     @endforeach
