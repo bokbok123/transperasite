@@ -19,19 +19,21 @@ div.announcements-container .slider .slides{
     max-height: 340px;
 }
 div.announcements-container .slider .slides li{
-    max-height: inherit;
+    max-height: 350px;
 }
 div.announcements-container .each-ann{
     border: 1px solid #4e4d4d;
     border-left: 0;
     border-right: 0;
     margin: 0 auto 15px;
-    max-height: 340px;
+    max-height: 355px;
     width: 90%;
 }
 div.announcements-container div.each{
     height: inherit;
     margin: 0 auto;
+    max-height: 325px;
+    overflow: hidden;
     width: 90%;
 }
 div.announcements-container div.each-content{
@@ -79,4 +81,9 @@ div.announcements-container div.button-container #next {
     line-height: 46px;
     text-align: center;
     width: 110px;
+}
+a.modal-trigger {
+    bottom: 5px;
+    position: absolute;
+    right: 75px;
 }

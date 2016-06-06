@@ -1,6 +1,3 @@
-
-
-
 <div class="announcements-container">
     <div class="header">
         <h1>Announcements</h1>
@@ -10,11 +7,12 @@
             @foreach(Announcement::where('ann_status','=','1')->get() as $ann)
             <li>
                 <div class="each">
-                    <div class="each-content">
+                    <div class="each-content" id="{{ $ann->id }}">
                         {{ $ann->ann_body }}
                     </div>
                     <div class="clear"></div>
                 </div>
+                <a class="readMore modal-trigger" href="#readmore" data-id="{{ $ann->id }}">read more</a></p>
             </li>
             @endforeach
         </ul>
@@ -38,6 +36,9 @@
         $('#next').on('click',function(){
             $('.each-ann').slider('next');
             $('.each-ann').slider('pause');
+        });
+        $('.readMore').on('click',function(){
+            $('#readmore .modal-content').html($('.each-content#'+$(this).data('id')).html());
         });
     });
 </script>

@@ -29,6 +29,14 @@ $(document).ready(function(){
         $.fn.fullpage.setMouseWheelScrolling(true);
         $.fn.fullpage.setAllowScrolling(true);
     });
+    $('.modal, .lean-overlay').on('mouseenter',function(){
+        $.fn.fullpage.setMouseWheelScrolling(false);
+        $.fn.fullpage.setAllowScrolling(false);
+    });
+    $('.modal, .lean-overlay').on('mouseleave',function(){
+        $.fn.fullpage.setMouseWheelScrolling(true);
+        $.fn.fullpage.setAllowScrolling(true);
+    });
     var height = $('.careers-container').parent().height() - 200;
     $('.careers-container').parent().css('height',height+'px').css('padding-top','120px').css('padding-bottom','80px');
     $('.job-title .tabs').on('click','a',function(){
@@ -50,4 +58,6 @@ $(document).ready(function(){
             $('.nextPageContainer').fadeIn();
         }
     };
+
+    $('.modal-trigger').leanModal();
 });

@@ -28,6 +28,12 @@
                 <p>Your message has been successfully sent.</p>
             </div>
         </div>
+
+        <div id="readmore" class="modal">
+            <div class="modal-content">
+            </div>
+        </div>
+
         <div class="nextPageContainer">
             <a id="nextPage"><img src="{{ Theme::asset()->url('img/icons/next-page.png'); }}"></a>
         </div>
