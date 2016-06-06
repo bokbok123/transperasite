@@ -30,6 +30,7 @@
         </div>
 
         <div id="readmore" class="modal">
+            <div class="modal-header"></div>
             <div class="modal-content">
             </div>
         </div>

@@ -38,7 +38,10 @@
             $('.each-ann').slider('pause');
         });
         $('.readMore').on('click',function(){
-            $('#readmore .modal-content').html($('.each-content#'+$(this).data('id')).html());
+            var attachment =  $('.each-content#'+$(this).data('id')+' table tr td:first-child').html();
+            var content =  $('.each-content#'+$(this).data('id')+' table tr td:last-child').html();
+            console.log(content);
+            $('#readmore .modal-content').html(content);
         });
     });
 </script>
