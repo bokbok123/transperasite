@@ -82,6 +82,10 @@ div.announcements-container div.button-container #next {
     text-align: center;
     width: 110px;
 }
+div#readmore img{
+    background-position: center center;
+    background-size: cover;
+}
 a.modal-trigger {
     bottom: 5px;
     position: absolute;
